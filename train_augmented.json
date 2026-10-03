@@ -1,0 +1,4862 @@
+[
+  {
+    "text":"mo cong lan kieu gi vs",
+    "intent":"INFO"
+  },
+  {
+    "text":"hom nay troi mua kong",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ban biet cong thuc luong gic khong?",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"hi ahn, khoe hem?",
+    "intent":"GREETING"
+  },
+  {
+    "text":"thi cuối kỳ căng vcl",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"shop scam à",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"chao anh thuong nhan",
+    "intent":"GREETING"
+  },
+  {
+    "text":"npc rac l, cut",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"cho nao co nhieu quai de farm?",
+    "intent":"INFO"
+  },
+  {
+    "text":"bna tui cai kiem nao manh manh",
+    "intent":"TRADE"
+  },
+  {
+    "text":"map này có con nào khó k?",
+    "intent":"INFO"
+  },
+  {
+    "text":"bán thú cưng lv thấp ok",
+    "intent":"TRADE"
+  },
+  {
+    "text":"mở cổng làng kiểu j vs",
+    "intent":"INFO"
+  },
+  {
+    "text":"alo npc on khong",
+    "intent":"GREETING"
+  },
+  {
+    "text":"t bán đống da sói này được chứ?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"chi taocach tan gai vs",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"xinchao ong chu tiem.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"bán thú cưng lv thấp ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"mẹo farm kinh nghiệm cho người mới là gì?",
+    "intent":"INFO"
+  },
+  {
+    "text":"lam saomo tui do",
+    "intent":"INFO"
+  },
+  {
+    "text":"ê ong anh",
+    "intent":"GREETING"
+  },
+  {
+    "text":"e ong ah",
+    "intent":"GREETING"
+  },
+  {
+    "text":"sao tui khong đánh được obss",
+    "intent":"INFO"
+  },
+  {
+    "text":"dat vl tao chui cho",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"skill nay dng kieu gi?",
+    "intent":"INFO"
+  },
+  {
+    "text":"do gian thuong",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"m, do ban hang te vcl",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"mẹo farm kinhnghiệm cho người mới là z",
+    "intent":"INFO"
+  },
+  {
+    "text":"chào anh, lâu roi chưa gặp nhỉ?",
+    "intent":"GREETING"
+  },
+  {
+    "text":"ai biet duong toi rung den khnog",
+    "intent":"INFO"
+  },
+  {
+    "text":"eo ng chu",
+    "intent":"GREETING"
+  },
+  {
+    "text":"quest nay lams ao z",
+    "intent":"INFO"
+  },
+  {
+    "text":"bán mắc the ai chịu nổi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"shpo con hang ko vay",
+    "intent":"TRADE"
+  },
+  {
+    "text":"co can lv de vao map moi ko",
+    "intent":"INFO"
+  },
+  {
+    "text":"qazwsxedc",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"m co ithường t à",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"chi tao cach tang ai vs",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"may t loi man hinh xan hr",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"chao hsop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"npc oi, tiu day ne",
+    "intent":"GREETING"
+  },
+  {
+    "text":"m coi thường t à",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"cai mu nay nhiu z shpo",
+    "intent":"TRADE"
+  },
+  {
+    "text":"kick shop ra khoi gamedi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"bro co choi lol khong",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"chao anh thuong han",
+    "intent":"GREETING"
+  },
+  {
+    "text":"dm, do ban hang et vcl",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"uti doi bung qua",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"khinh shop nay wa",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"Giá xăng lại tăng nữa rồi!!",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ab 123 def",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"bro ăn cơm chưa",
+    "intent":"GREETING"
+  },
+  {
+    "text":"co dea set giap full ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"NPC còn thức à",
+    "intent":"GREETING"
+  },
+  {
+    "text":"NPC oi nghe tui ko",
+    "intent":"GREETING"
+  },
+  {
+    "text":"thu mua rácko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"con hang moi khong",
+    "intent":"TRADE"
+  },
+  {
+    "text":"do rac ma gia catc o",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"co cach nao hoi mana nhan ko",
+    "intent":"INFO"
+  },
+  {
+    "text":"npc oi",
+    "intent":"GREETING"
+  },
+  {
+    "text":"áo giáp cũ bán mấy xèng",
+    "intent":"TRADE"
+  },
+  {
+    "text":"tui co 2k vang mua dc gi",
+    "intent":"TRADE"
+  },
+  {
+    "text":"bro gửi meme oi",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"áogiáp cũ bán mấy xèng",
+    "intent":"TRADE"
+  },
+  {
+    "text":"chao da ca",
+    "intent":"GREETING"
+  },
+  {
+    "text":"chaonpc nha",
+    "intent":"GREETING"
+  },
+  {
+    "text":"lam sao de mo hkoa map",
+    "intent":"INFO"
+  },
+  {
+    "text":"alo ong chu",
+    "intent":"GREETING"
+  },
+  {
+    "text":"xin chao thuong nhan",
+    "intent":"GREETING"
+  },
+  {
+    "text":"ngu hti nghi ban di",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"cach thoat khi bi ket trong hang dio",
+    "intent":"INFO"
+  },
+  {
+    "text":"ao giapcu ban may xeng",
+    "intent":"TRADE"
+  },
+  {
+    "text":"làm sao học skill mới?",
+    "intent":"INFO"
+  },
+  {
+    "text":"bán đắt thế chó",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"Có loại thuốc hồi HP xịn hơn không?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ê cho hỏi wifi pass",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"nay thu ma vay?",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"asdghjkl",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"hom nay troi nong qua",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"aaaaaaaaa",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"crush onlin exinh zai",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"sao tui k đánh duoc boss",
+    "intent":"INFO"
+  },
+  {
+    "text":"tui đói bụng quá",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"npc oi nghe tui ko",
+    "intent":"GREETING"
+  },
+  {
+    "text":"chi tao cach tan gai vs",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"hello ông",
+    "intent":"GREETING"
+  },
+  {
+    "text":"bo giap cu nay thib an duoc bao nhieu?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"con goblin spawn o du vay",
+    "intent":"INFO"
+  },
+  {
+    "text":"bro có chơi LOL không",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ong chu khoe khong",
+    "intent":"GREETING"
+  },
+  {
+    "text":"mang nha tu chap chon",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"report shop gian lận đấy",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"cach thoat khi bi ket trong hangd oi",
+    "intent":"INFO"
+  },
+  {
+    "text":"ong oi, tui dan ame thu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"cho xem danh sach vat ham cai",
+    "intent":"TRADE"
+  },
+  {
+    "text":"mia co mua khong nhi",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"npc dm vl, im đi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"Tôi bán đống da sói này được chứ?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"hôm nayt rời nóng quá",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"nhiem vu chinh tiep theobat dau tu dau",
+    "intent":"INFO"
+  },
+  {
+    "text":"ky nang bi khoa phai mo the ao",
+    "intent":"INFO"
+  },
+  {
+    "text":"tui dang farm, chao ong truoc",
+    "intent":"GREETING"
+  },
+  {
+    "text":"crush onlinex inh zai",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"anh ay nhan tin xin oli kia.",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"mua cái là lỗ, ngu à?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"do arc ma gia cat co",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"np ơi tui tới nè",
+    "intent":"GREETING"
+  },
+  {
+    "text":"nug thi nghi ban di",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"d buon ban mat day",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ban hang nhuc c",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"mo cong lang kieu gi vs",
+    "intent":"INFO"
+  },
+  {
+    "text":"np oi",
+    "intent":"GREETING"
+  },
+  {
+    "text":"Hi NPC nha",
+    "intent":"GREETING"
+  },
+  {
+    "text":"thu mua rác ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ong gia ban hang,t oi toi day ne.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"tui bán đống da sói ni được cứ?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"deo hieu ban ahng kieu gi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"nguoi yeu cu khong tra loi tin nhan",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"quái ni yếu với hệ gì z",
+    "intent":"INFO"
+  },
+  {
+    "text":"ong chủ khỏe ko",
+    "intent":"GREETING"
+  },
+  {
+    "text":"co nha nmua do xanh ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"lang nay co cho hoi hp ko",
+    "intent":"INFO"
+  },
+  {
+    "text":"npc dom vl, im di",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"tui bi kett rong map r",
+    "intent":"INFO"
+  },
+  {
+    "text":"ban ma cthe ai chiu noi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"shop ơi, tui tới nè :v",
+    "intent":"GREETING"
+  },
+  {
+    "text":"lam an kieu cho g vay?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"yonpc",
+    "intent":"GREETING"
+  },
+  {
+    "text":"khinh shopn ay wa",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ông chủ khỏe không",
+    "intent":"GREETING"
+  },
+  {
+    "text":"tui doi bung ua",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"bro o choi lol khong",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"gia xang lai tang nua ori!!",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"shop oi fix gia binh mau dcko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"bán mắc thế ai chịu nổi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"Hi ông chủ",
+    "intent":"GREETING"
+  },
+  {
+    "text":"con han gmoi khong",
+    "intent":"TRADE"
+  },
+  {
+    "text":"xin hcao thuong nhan",
+    "intent":"GREETING"
+  },
+  {
+    "text":"do lua dao, tra tien lai!",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"con boss o da z",
+    "intent":"INFO"
+  },
+  {
+    "text":"đm bán gì mắc vậy",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"npc ơihehe",
+    "intent":"GREETING"
+  },
+  {
+    "text":"liet ke vat pham iam gia",
+    "intent":"TRADE"
+  },
+  {
+    "text":"do ian thuong",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"xin cha ong chu tiem.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"co loai thuoc hoi hp xin hon khong?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"shpo oii, tui toi ne :v",
+    "intent":"GREETING"
+  },
+  {
+    "text":"npc con thuc a",
+    "intent":"GREETING"
+  },
+  {
+    "text":"hlelo bro",
+    "intent":"GREETING"
+  },
+  {
+    "text":"o ai biet quest hang dong ko",
+    "intent":"INFO"
+  },
+  {
+    "text":"quest nay làm sao z",
+    "intent":"INFO"
+  },
+  {
+    "text":"cút đi ong nội",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"quái nào rớt da sói vay",
+    "intent":"INFO"
+  },
+  {
+    "text":"shop oi fix giab inh mau dc ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"thich meo hay cho",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"quest nay nhận ở âu z",
+    "intent":"INFO"
+  },
+  {
+    "text":"npc nhiệm vụ chính tên j ko",
+    "intent":"INFO"
+  },
+  {
+    "text":"ket map r chi vi",
+    "intent":"INFO"
+  },
+  {
+    "text":"Nay shop co hang gi moi?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"giá bitcoin hôm naybao nhiêu?",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"m muốn ăn đấm à",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"kic shop ra khoi game di",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"co mon nao re re kh?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"đồ giant hương",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"chao np cnha",
+    "intent":"GREETING"
+  },
+  {
+    "text":"pass wifi l agi z",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"shop con hangko vay",
+    "intent":"TRADE"
+  },
+  {
+    "text":"c ódịch vụ gửi đồ qua hộp k",
+    "intent":"TRADE"
+  },
+  {
+    "text":"làm sao đổi class z",
+    "intent":"INFO"
+  },
+  {
+    "text":"shop cùi lv, ko chơi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"hào đại ca",
+    "intent":"GREETING"
+  },
+  {
+    "text":"kiem nay nhiu vang z",
+    "intent":"TRADE"
+  },
+  {
+    "text":"cu di ong noi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"mm uon an dam a",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"chao shop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"cut di ong nio",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"me goi ve an com r",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ma bi lag nao a",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ban dat z ai them mua",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"chao og già =))",
+    "intent":"GREETING"
+  },
+  {
+    "text":"phim bo han quoc xem chua",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"nguoi yeu cu khong ta loi tin nhan",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ban re hon chut dc kobro",
+    "intent":"TRADE"
+  },
+  {
+    "text":"đội việt nam đá hay lắm!",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"co ai bet quest hang dong ko",
+    "intent":"INFO"
+  },
+  {
+    "text":"gia vag ngoai doi bao nhieu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"hi anh khoe hem?",
+    "intent":"GREETING"
+  },
+  {
+    "text":"hello npc",
+    "intent":"GREETING"
+  },
+  {
+    "text":"có dịch vụ gửi đồ qua hộp khng?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"cái điện thoại i lag ghê",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"con boss nay danh sao vay",
+    "intent":"INFO"
+  },
+  {
+    "text":"ac 123 def",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"co xem danh sách vật phẩm cái",
+    "intent":"TRADE"
+  },
+  {
+    "text":"mua cay cung ay nha shop",
+    "intent":"TRADE"
+  },
+  {
+    "text":"mắc vay bán cho ma à?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"oc deal set giap full ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ngu thi nghi bna di",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"Đội Việt Nam đá hay lắm!",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"npc dỏm vl, im đi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"npc ới, uti đây nè",
+    "intent":"GREETING"
+  },
+  {
+    "text":"dat nhu an cuop, biet khon?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"đm bán z mắc vậy",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"cut me di npc",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"mua cái làl ỗ, ngu à?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"co cna lv de vao map moi ko",
+    "intent":"INFO"
+  },
+  {
+    "text":"chao nha, tui moi vo lang",
+    "intent":"GREETING"
+  },
+  {
+    "text":"gia cut nhu vay ma cung dam o tiem",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ko tin hsop nua",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"gaim gia ti de",
+    "intent":"TRADE"
+  },
+  {
+    "text":"alo ongc hu",
+    "intent":"GREETING"
+  },
+  {
+    "text":"he ybro",
+    "intent":"GREETING"
+  },
+  {
+    "text":"cai dien thoai nay lagg he",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"bán hàng như cc",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"hello ncp",
+    "intent":"GREETING"
+  },
+  {
+    "text":"ê thương nhân",
+    "intent":"GREETING"
+  },
+  {
+    "text":"xyzxz123",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"cho xin so dien thaoi",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ê cho hỏi wifi apss",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"e npc kohe ko",
+    "intent":"GREETING"
+  },
+  {
+    "text":"mua cai la lo, ngu a?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"7x8 bang ba nhieu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"do buon ban ma day",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ngu thi nghi ban di",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"shop rac vcl",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"Quái này yếu với hệ gì vậy?",
+    "intent":"INFO"
+  },
+  {
+    "text":"đm bán gì mắc vy",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"e npc khoe o",
+    "intent":"GREETING"
+  },
+  {
+    "text":"mua 10 binh mu het nhiu",
+    "intent":"TRADE"
+  },
+  {
+    "text":"7x8 bằng bao nhiêu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"anh ấy nhắn tin xin lỗi kìa.",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"cút đi og nội",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"boss xuat hien may gio?",
+    "intent":"INFO"
+  },
+  {
+    "text":"hom nya troi nong qua",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"questn ay nhận ở đâu z",
+    "intent":"INFO"
+  },
+  {
+    "text":"co deal set giap ful lko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"giá xăng lại tăng nữa rồi!!",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ban mac the ai chiu noi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"tui doi ung qua",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"xin chao thuong han",
+    "intent":"GREETING"
+  },
+  {
+    "text":"con hang mio khong",
+    "intent":"TRADE"
+  },
+  {
+    "text":"giá bitcoin hôm na ybao nhiêu?",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"co mon nao e re kh?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"zzzzzzzz",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"quai nay yeu voi he gi vay?",
+    "intent":"INFO"
+  },
+  {
+    "text":"thuong nha gi ma ga the",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"chao nha, tui mới vô làng",
+    "intent":"GREETING"
+  },
+  {
+    "text":"co on nao re re kh?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ông bán hàng chán thế",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"23456789",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"đồ lừa đảo, trả tiền lại!",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"sao nay khnog co nguoi yeu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"có bán vé dịch chuển sang map khác khong",
+    "intent":"TRADE"
+  },
+  {
+    "text":"dat nhu a cuop, biet khong?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"bro có chơi lol không",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ko tin shop ua",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"d orac ma gia cat co",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"gia vang gnoai doi bao nhieu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"tiệm òcn hàng giới hạn hem",
+    "intent":"TRADE"
+  },
+  {
+    "text":"thic meo hay cho",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"làm the nào để hồi hp giữa trận?",
+    "intent":"INFO"
+  },
+  {
+    "text":"lam sao de m okhoa map",
+    "intent":"INFO"
+  },
+  {
+    "text":"Thanh kiếm này giá như nào",
+    "intent":"TRADE"
+  },
+  {
+    "text":"npc phếvl",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"bạn biết công thức lượng giác không?",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"e onga nh",
+    "intent":"GREETING"
+  },
+  {
+    "text":"Co cho tra gop k man?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"1+1 ban may",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"Anh ấy nhắn tin xin lỗi kìa.",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"bro n com chua",
+    "intent":"GREETING"
+  },
+  {
+    "text":"m coi thườngt à",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"tại sao tui k nhận dc quest?",
+    "intent":"INFO"
+  },
+  {
+    "text":"giabitcoin hom nay bao nhieu?",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"lam the nao de ho hp giua tran?",
+    "intent":"INFO"
+  },
+  {
+    "text":"tôi bán đống da sói này duocchứ?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ma vay ban cho ma a?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"crush online xinh zia",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"toi dn day roi nha",
+    "intent":"GREETING"
+  },
+  {
+    "text":"x78 bang bao nhieu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"cút đi ông nội",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"làm sao tăng chỉ số v",
+    "intent":"INFO"
+  },
+  {
+    "text":"dat nhu na cuop, biet khong?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"cong dich chuyn o dau",
+    "intent":"INFO"
+  },
+  {
+    "text":"quest này làm sao z",
+    "intent":"INFO"
+  },
+  {
+    "text":"mo cong lang kieu giv s",
+    "intent":"INFO"
+  },
+  {
+    "text":"co dich vu gui d oqua hop khong?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"hcao anh thuong nhan",
+    "intent":"GREETING"
+  },
+  {
+    "text":"co ban ve dihc chuyen sang map khac khong?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"tui co 2k vang mua dc i",
+    "intent":"TRADE"
+  },
+  {
+    "text":"npc rac vl, ctu",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"hishop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"thang ncp rac",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"yo bro",
+    "intent":"GREETING"
+  },
+  {
+    "text":"ai biết đường tới rừng đen hok",
+    "intent":"INFO"
+  },
+  {
+    "text":"cho tra gop abng nguyen lieu",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ahn ay nhan tin xin loi kia.",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"xi chao ong chu tiem.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"Ông già bán hàng, tôi tới đây nè.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"doi viet nm da hay lam!",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"shop lừa đảo hả",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"có cách nào kiếm exp nhanh ko",
+    "intent":"INFO"
+  },
+  {
+    "text":"tih cuối kỳ căng vcl",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"mai có mưa ko nhỉ",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"thuoc tangluc gia sao",
+    "intent":"TRADE"
+  },
+  {
+    "text":"lam an kieu cho gi ay?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ban gia nay cuopa",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ban dothe gioi co the xem o dau?",
+    "intent":"INFO"
+  },
+  {
+    "text":"thu mua rac ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"kkkkkkk",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"me goi ve an om r",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"abc 213 def",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"game dở qá",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"gia bitcoin hom nay bao nhieu?",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"bro gui meme oci",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ê bc bán hàng",
+    "intent":"GREETING"
+  },
+  {
+    "text":"ban re hon chut dc ko bro",
+    "intent":"TRADE"
+  },
+  {
+    "text":"Quest này nhận ở đâu vậy?",
+    "intent":"INFO"
+  },
+  {
+    "text":"tiem conhang gioi han hem",
+    "intent":"TRADE"
+  },
+  {
+    "text":"xin choa nha",
+    "intent":"GREETING"
+  },
+  {
+    "text":"lam sao de mok hoa map",
+    "intent":"INFO"
+  },
+  {
+    "text":"bản đồ z giới có thểxem ở đâu?",
+    "intent":"INFO"
+  },
+  {
+    "text":"mua cay cung nay nha hop",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ogchủ khỏe không",
+    "intent":"GREETING"
+  },
+  {
+    "text":"m muon an dam a",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"quest n nhận ở đâu v",
+    "intent":"INFO"
+  },
+  {
+    "text":"doi ngoclay vang dc k",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ong già bán hàng, tui tới đây nè.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"mua hieu co duoc giam gia khong?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ban do dom qua",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"làng này có chỗ hồi HP ko",
+    "intent":"INFO"
+  },
+  {
+    "text":"cam do lay tien gap ha",
+    "intent":"TRADE"
+  },
+  {
+    "text":"hi anh, khoe hem?",
+    "intent":"GREETING"
+  },
+  {
+    "text":"co ban ve dich chuyen sang map hkac khong?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"jkl jk ljkl",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"mua full stack mau dc k",
+    "intent":"TRADE"
+  },
+  {
+    "text":"npc oi tui toi ne",
+    "intent":"GREETING"
+  },
+  {
+    "text":"skill ny dung kieu gi?",
+    "intent":"INFO"
+  },
+  {
+    "text":"Bản đồ thế giới có thể xem ở đâu?",
+    "intent":"INFO"
+  },
+  {
+    "text":"caho anh thuong nhan",
+    "intent":"GREETING"
+  },
+  {
+    "text":"shop scam a",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"mua nhiều có duoc giảm giá khong",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ey bro",
+    "intent":"GREETING"
+  },
+  {
+    "text":"phim bo han quco xem chua",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"cho xin so dein thoai",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"shop bán gì tế?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"crushonline xinh zai",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"bong da toi nya ai thang",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"og già bán hàng, t tới đây nè.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"tôi bán đống da sói này được chứ?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"e cho hoi wifi pass",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"nay shop co hang g imoi?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"hi anh, khỏe hem?",
+    "intent":"GREETING"
+  },
+  {
+    "text":"đéo hiểu bán hàng kiểu j",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"shop cno hang ko vay",
+    "intent":"TRADE"
+  },
+  {
+    "text":"npc oi, tui day ne",
+    "intent":"GREETING"
+  },
+  {
+    "text":"cho hoi ky nang lua ho co dau?",
+    "intent":"INFO"
+  },
+  {
+    "text":"thuoc tang luc gia sao",
+    "intent":"TRADE"
+  },
+  {
+    "text":"mo cong lang kieu g ivs",
+    "intent":"INFO"
+  },
+  {
+    "text":"shop bán gìz",
+    "intent":"TRADE"
+  },
+  {
+    "text":"thuong nhan gi ma ga the",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"Xin chào ông chủ tiệm.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"có cách nào kiếm exp hanh không?",
+    "intent":"INFO"
+  },
+  {
+    "text":"map ni có con nào khó k?",
+    "intent":"INFO"
+  },
+  {
+    "text":"duong ra khu rung dau lang di huong nao?",
+    "intent":"INFO"
+  },
+  {
+    "text":"lam sao de mo koha map",
+    "intent":"INFO"
+  },
+  {
+    "text":"bro co chi lol khong",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"có cách nào kiếm exp nhanh hok",
+    "intent":"INFO"
+  },
+  {
+    "text":"có bán vé dịch chuyển sang map khác không?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ccah thoat khi bi ket trong hang doi",
+    "intent":"INFO"
+  },
+  {
+    "text":"lams ao mo tui do",
+    "intent":"INFO"
+  },
+  {
+    "text":"tui dang farm,chao ong truoc",
+    "intent":"GREETING"
+  },
+  {
+    "text":"tiệm còn hàng giới hạn ehm",
+    "intent":"TRADE"
+  },
+  {
+    "text":"al shop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"shop cui vl, ko choi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"đéo hiểu bán hàng kiểu gì",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"cút mẹ i npc",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"NPC ơi alo",
+    "intent":"GREETING"
+  },
+  {
+    "text":"hom naytroi nong qua",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"la sao doi class vay?",
+    "intent":"INFO"
+  },
+  {
+    "text":"dat nh uan cuop, biet khong?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"tiem con hang gioi han hem",
+    "intent":"TRADE"
+  },
+  {
+    "text":"uti bi ket trong map r",
+    "intent":"INFO"
+  },
+  {
+    "text":"shop oii, tui toi en :v",
+    "intent":"GREETING"
+  },
+  {
+    "text":"duong ra khu rung dau lang di huongnao?",
+    "intent":"INFO"
+  },
+  {
+    "text":"npc ơi alo",
+    "intent":"GREETING"
+  },
+  {
+    "text":"shop ơii, cho e mchao 1 cái",
+    "intent":"GREETING"
+  },
+  {
+    "text":"chào anh, lâu roi chưa gp nhỉ?",
+    "intent":"GREETING"
+  },
+  {
+    "text":"shop ra cvcl",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"npc còn thức à",
+    "intent":"GREETING"
+  },
+  {
+    "text":"ket mapr chi voi",
+    "intent":"INFO"
+  },
+  {
+    "text":"2+2= 5dung khong",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"hi on chu",
+    "intent":"GREETING"
+  },
+  {
+    "text":"mẹ gọi về ăn cơmr",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"chào anh thương nhân",
+    "intent":"GREETING"
+  },
+  {
+    "text":"mạng nhà tui chập chờn",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ban tui cai kiem nao manh manh",
+    "intent":"TRADE"
+  },
+  {
+    "text":"đồ gian thươg",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"npc ơi tôi bịlạc",
+    "intent":"INFO"
+  },
+  {
+    "text":"qazwsxdc",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"thương nhân gì mà gà thế",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"alo shop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"may t loi man hinh xanh r",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"hell bro",
+    "intent":"GREETING"
+  },
+  {
+    "text":"tui bi ket trong map r",
+    "intent":"INFO"
+  },
+  {
+    "text":"nc con thuc a",
+    "intent":"GREETING"
+  },
+  {
+    "text":"e shop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"tai sao tui khong nhan duoc quest?",
+    "intent":"INFO"
+  },
+  {
+    "text":"thang thuong nhanl ua dao",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"shop cui vl, k choi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"cho hỏi giờ my giờ",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"qawsxedc",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"đường tới hang ósi đi lối nào",
+    "intent":"INFO"
+  },
+  {
+    "text":"kho đồ của tiệm còn chỗ trống hok",
+    "intent":"TRADE"
+  },
+  {
+    "text":"đồ buôn bán mấtd ạy",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ông già bán hàng, t tới đây nè.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"cai mu nay nhiu z shop",
+    "intent":"TRADE"
+  },
+  {
+    "text":"cong dich chuyen o dau",
+    "intent":"INFO"
+  },
+  {
+    "text":"meo farm kinh nghiem cho nguoi moi la gi?",
+    "intent":"INFO"
+  },
+  {
+    "text":"npc oi chi tui cach farm exp",
+    "intent":"INFO"
+  },
+  {
+    "text":"thương nhân gì mà gà z",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"lam sao hoc skill moi?",
+    "intent":"INFO"
+  },
+  {
+    "text":"làm ăn kiểu chó gì vậy?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"đổi ngọc lấy vnàg dc k",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ong chu kho khong",
+    "intent":"GREETING"
+  },
+  {
+    "text":"yo NPC",
+    "intent":"GREETING"
+  },
+  {
+    "text":"muon vao guild thi lam sao?",
+    "intent":"INFO"
+  },
+  {
+    "text":"yo ncp",
+    "intent":"GREETING"
+  },
+  {
+    "text":"mua 3 lo mana giam gia ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"chi tao ach tan gai vs",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"thanh kiem nay gia nhu nao",
+    "intent":"TRADE"
+  },
+  {
+    "text":"npc oi chi tui cah farm exp",
+    "intent":"INFO"
+  },
+  {
+    "text":"doi iet nam da hay lam!",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"điện thoi hết pin r",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"mua cay cung nay nha shop",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ngu thì ngỉh bán đi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"NPC ơi cứu tui với",
+    "intent":"INFO"
+  },
+  {
+    "text":"do ac ma gia cat co",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"la msao de nang cap vu khi",
+    "intent":"INFO"
+  },
+  {
+    "text":"cái điện thoại này lag ghê",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"shop sca a",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"gia cut nhu vay ma cun dam mo tiem",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ket map r hci voi",
+    "intent":"INFO"
+  },
+  {
+    "text":"npc oi chi tu icach farm exp",
+    "intent":"INFO"
+  },
+  {
+    "text":"xin chao htuong nhan",
+    "intent":"GREETING"
+  },
+  {
+    "text":"co deal set giap fullko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ê NPC khỏe ko",
+    "intent":"GREETING"
+  },
+  {
+    "text":"ban hang nhu cc",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"pass wifi a gi z",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"co nhan mua do anh ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"mang nha tui chap chon",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ket map r cih voi",
+    "intent":"INFO"
+  },
+  {
+    "text":"ao giap cu ban may xneg",
+    "intent":"TRADE"
+  },
+  {
+    "text":"chao ong gia",
+    "intent":"GREETING"
+  },
+  {
+    "text":"dien thoai het pin r",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"aol alo",
+    "intent":"GREETING"
+  },
+  {
+    "text":"lang nay coc ho hoi hp ko",
+    "intent":"INFO"
+  },
+  {
+    "text":"chao anh, lau roi cuha gap nhi?",
+    "intent":"GREETING"
+  },
+  {
+    "text":"giá ni cố định hả?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"bán thú cưng lv thấp o",
+    "intent":"TRADE"
+  },
+  {
+    "text":"Report shop gian lận đấy",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"coh xin so dien thoai",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"pnc oi, tui day ne",
+    "intent":"GREETING"
+  },
+  {
+    "text":"thi cuối kỳ căng cl",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"crush online xinh zai",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"hi og chủ",
+    "intent":"GREETING"
+  },
+  {
+    "text":"ban thu cung lv thap ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"su avu khi het bao nhieu",
+    "intent":"TRADE"
+  },
+  {
+    "text":"e thuong nhan",
+    "intent":"GREETING"
+  },
+  {
+    "text":"nguoi yeu cu khong tra loi tni nhan",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"npc ơi tui tới nè",
+    "intent":"GREETING"
+  },
+  {
+    "text":"quái này có kháng phép không?",
+    "intent":"INFO"
+  },
+  {
+    "text":"tui bị kẹt trong map r",
+    "intent":"INFO"
+  },
+  {
+    "text":"cho ho itruong lang o dau?",
+    "intent":"INFO"
+  },
+  {
+    "text":"cái điện thoạin i lag ghê",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"tao dap sho gio",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"co ban scroll telport k?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"dm, do ban hang te vcl",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"e ac ban hang",
+    "intent":"GREETING"
+  },
+  {
+    "text":"cho tra gop bang nguyen lieu",
+    "intent":"TRADE"
+  },
+  {
+    "text":"hi ong chu",
+    "intent":"GREETING"
+  },
+  {
+    "text":"ky nang bi khoa phia mo the nao",
+    "intent":"INFO"
+  },
+  {
+    "text":"shop loz, tao ko choi nua",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"chi cach hoi sin hvoi",
+    "intent":"INFO"
+  },
+  {
+    "text":"shop scamer a",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"bán giá này cướp à",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"bộ giáp cũ này thì bán được bao nhiêu?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"eong chu",
+    "intent":"GREETING"
+  },
+  {
+    "text":"co nhan mua do xah ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"amy t loi man hinh xanh r",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"alo alo",
+    "intent":"GREETING"
+  },
+  {
+    "text":"dien thoaih et pin r",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"Cho hỏi trưởng làng ở đâu?",
+    "intent":"INFO"
+  },
+  {
+    "text":"shop bán gì thế?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"2+2=5 đúng hông",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"làm thế nào để hồi hp giữa trận?",
+    "intent":"INFO"
+  },
+  {
+    "text":"dm, do ban hagn te vcl",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"asdfghjkl",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"quest này lmà sao z",
+    "intent":"INFO"
+  },
+  {
+    "text":"bạn biết công thức lượng giác khôg?",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"npc ơi t bị lạc",
+    "intent":"INFO"
+  },
+  {
+    "text":"chào chú, hôm nayt rông ông khỏe ghê.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"cút mẹ đi npc",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"hello ong",
+    "intent":"GREETING"
+  },
+  {
+    "text":"cai mu nay nhiu z sop",
+    "intent":"TRADE"
+  },
+  {
+    "text":"tao dang hoc toanm a khong hieu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"chao ong cu",
+    "intent":"GREETING"
+  },
+  {
+    "text":"hom nay troi mua khong",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"jkl jkl jkl",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"bro gửi meme coi",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"codep ython hay c++?",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"quai nay co khang phep khnog?",
+    "intent":"INFO"
+  },
+  {
+    "text":"2+2=5 dung kong",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"tui het vang roi ban do gap",
+    "intent":"TRADE"
+  },
+  {
+    "text":"thang thuong nha nlua dao",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"uqest nay nhận ở đâu v",
+    "intent":"INFO"
+  },
+  {
+    "text":"cn boss nay danh sao vay",
+    "intent":"INFO"
+  },
+  {
+    "text":"cho anh thuong nhan",
+    "intent":"GREETING"
+  },
+  {
+    "text":"hell obro",
+    "intent":"GREETING"
+  },
+  {
+    "text":"co ban scroll telepor k?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"npcoi",
+    "intent":"GREETING"
+  },
+  {
+    "text":"shop cno online ko",
+    "intent":"GREETING"
+  },
+  {
+    "text":"NPC oi chi tui cach farm exp",
+    "intent":"INFO"
+  },
+  {
+    "text":"game d ởquá",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"tui co 2k vangmua dc gi",
+    "intent":"TRADE"
+  },
+  {
+    "text":"cut di ong noi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ncp oi alo",
+    "intent":"GREETING"
+  },
+  {
+    "text":"nay thứ mấy vậy?",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"bán đắt the chó",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"quai nay yeu voi hegi vay?",
+    "intent":"INFO"
+  },
+  {
+    "text":"lam quen truoc da nha",
+    "intent":"GREETING"
+  },
+  {
+    "text":"học skill nhanh j vậy",
+    "intent":"INFO"
+  },
+  {
+    "text":"meo farm kinh gnhiem cho nguoi moi la gi?",
+    "intent":"INFO"
+  },
+  {
+    "text":"quai nay co khang phep khong?",
+    "intent":"INFO"
+  },
+  {
+    "text":"hi ongchu",
+    "intent":"GREETING"
+  },
+  {
+    "text":"hi npc nha",
+    "intent":"GREETING"
+  },
+  {
+    "text":"pass wifi la gi z",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"cut khoi day i",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"hello ogn",
+    "intent":"GREETING"
+  },
+  {
+    "text":"e bac ban hang",
+    "intent":"GREETING"
+  },
+  {
+    "text":"bong da toi nay ai thang",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"chào đại ca",
+    "intent":"GREETING"
+  },
+  {
+    "text":"ban dat the cho",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ai biet duong toi rung den khong",
+    "intent":"INFO"
+  },
+  {
+    "text":"co cach nao kiem exp nhanh khong?",
+    "intent":"INFO"
+  },
+  {
+    "text":"bo giap cu nay thi ban duoc bao nhieu?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"con boss o dau z",
+    "intent":"INFO"
+  },
+  {
+    "text":"co cach nao hio mana nhanh ko",
+    "intent":"INFO"
+  },
+  {
+    "text":"chao ong iga",
+    "intent":"GREETING"
+  },
+  {
+    "text":"làm sao ọc skill mới?",
+    "intent":"INFO"
+  },
+  {
+    "text":"làm sao tăng chỉ số vậy?",
+    "intent":"INFO"
+  },
+  {
+    "text":"co deal set giap full ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"xin chao shop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"lay cho toi ab thuoc hoi mau",
+    "intent":"TRADE"
+  },
+  {
+    "text":"sao nay khong co ngui yeu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"quai nao rot da soi vay?",
+    "intent":"INFO"
+  },
+  {
+    "text":"co cach nao kiem xp nhanh khong?",
+    "intent":"INFO"
+  },
+  {
+    "text":"sua vu khi het bao nhieu",
+    "intent":"TRADE"
+  },
+  {
+    "text":"con hang moi khng",
+    "intent":"TRADE"
+  },
+  {
+    "text":"chao hop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"ai biết đường tới rừng đen không",
+    "intent":"INFO"
+  },
+  {
+    "text":"mang ha tui chap chon",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"skill nay dung kieu gi?",
+    "intent":"INFO"
+  },
+  {
+    "text":"ai biet duong toirung den khong",
+    "intent":"INFO"
+  },
+  {
+    "text":"shop on online ko",
+    "intent":"GREETING"
+  },
+  {
+    "text":"1+1 bang my",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"tui bán đống da sói nay dc chứ?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"npc i hehe",
+    "intent":"GREETING"
+  },
+  {
+    "text":"Chào anh, lâu rồi chưa gặp nhỉ?",
+    "intent":"GREETING"
+  },
+  {
+    "text":"cho xinf b di",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"Chào chú, hôm nay trông ông khỏe ghê.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"2+2=5 dugn khong",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"shop oii, cho em chao 1 cai",
+    "intent":"GREETING"
+  },
+  {
+    "text":"sao tui không đánh được boss",
+    "intent":"INFO"
+  },
+  {
+    "text":"shp rac vcl",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"hello bro",
+    "intent":"GREETING"
+  },
+  {
+    "text":"npc cont huc a",
+    "intent":"GREETING"
+  },
+  {
+    "text":"lam saod oi class vay?",
+    "intent":"INFO"
+  },
+  {
+    "text":"kẹt map r chỉ viớ",
+    "intent":"INFO"
+  },
+  {
+    "text":"npc phe vl",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"shop con hang ko vay",
+    "intent":"TRADE"
+  },
+  {
+    "text":"con boss nay danh saov ay",
+    "intent":"INFO"
+  },
+  {
+    "text":"quest này làm aso z",
+    "intent":"INFO"
+  },
+  {
+    "text":"sop oii, tui toi ne :v",
+    "intent":"GREETING"
+  },
+  {
+    "text":"shop oi fix gia binh mau dc ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"chao ong già =))",
+    "intent":"GREETING"
+  },
+  {
+    "text":"điện thoại hết pin r",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"hi npcnha",
+    "intent":"GREETING"
+  },
+  {
+    "text":"thang np crac",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"gia bitcoin hom nay ba nhieu?",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"thuoctang luc gia sao",
+    "intent":"TRADE"
+  },
+  {
+    "text":"npc oinghe tui ko",
+    "intent":"GREETING"
+  },
+  {
+    "text":"lam sao hoc skill oi?",
+    "intent":"INFO"
+  },
+  {
+    "text":"shpo scam a",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"bộ giáp cũ ni thì bán dc bao nhiêu?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"mắc z bán cho ma à?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"Làm thế nào để hồi HP giữa trận?",
+    "intent":"INFO"
+  },
+  {
+    "text":"thanh kiemn ay gia nhu nao",
+    "intent":"TRADE"
+  },
+  {
+    "text":"2 x 3 bang may",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"npc phế vl",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"cach thoat khi bi ket trong hang doi",
+    "intent":"INFO"
+  },
+  {
+    "text":"cong dich chyuen o dau",
+    "intent":"INFO"
+  },
+  {
+    "text":"quai nao rot da soi avy?",
+    "intent":"INFO"
+  },
+  {
+    "text":"cush online xinh zai",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ket map r chi voi",
+    "intent":"INFO"
+  },
+  {
+    "text":"chào chú, hôm nay tôrng ong khỏe ghê.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"gian ay co dinh ha?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"npc oi uti toi ne",
+    "intent":"GREETING"
+  },
+  {
+    "text":"shop oii, tui toi ne :v",
+    "intent":"GREETING"
+  },
+  {
+    "text":"có cho cầm đồ không?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"khnih shop nay wa",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"cho xem danh sach vat pham cai",
+    "intent":"TRADE"
+  },
+  {
+    "text":"bro gửi mme coi",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"co dich vu gu do qua hop khong?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"bán đồ mắc vãi chưởng",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"hi ông chủ",
+    "intent":"GREETING"
+  },
+  {
+    "text":"mua lon lam duong ngap su.",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"tuiđói bụng quá",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"mai có mưa không nhỉ",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"shop cùi vl, ko chơi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"co nhan mua do xanh ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"cho hoi ky nang lua hoc o dau?",
+    "intent":"INFO"
+  },
+  {
+    "text":"phim bo han quoc exm chua",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"shop oii, cho em cha o1 cai",
+    "intent":"GREETING"
+  },
+  {
+    "text":"mày thích gây war à",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ao shop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"ong gia ban o newbie hem",
+    "intent":"TRADE"
+  },
+  {
+    "text":"xem bang gia ho mnay",
+    "intent":"TRADE"
+  },
+  {
+    "text":"phim bo han quoc xem chau",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"xin chào ong chủ tiệm.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"lay cho toi ba thouc hoi mau",
+    "intent":"TRADE"
+  },
+  {
+    "text":"con bss ở đâu z",
+    "intent":"INFO"
+  },
+  {
+    "text":"ko tin sho nua",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"toi den day roi nha",
+    "intent":"GREETING"
+  },
+  {
+    "text":"mua ai la lo, ngu a?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"cút mẹ đi NPC",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"chao onggia",
+    "intent":"GREETING"
+  },
+  {
+    "text":"2 x 3 bang mya",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"yobro",
+    "intent":"GREETING"
+  },
+  {
+    "text":"kh ođồ của tiệm còn chỗ trống không?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"npc ơi hehe",
+    "intent":"GREETING"
+  },
+  {
+    "text":"làm sao lên đồ sớm z",
+    "intent":"INFO"
+  },
+  {
+    "text":"cod ich vu gui do z k?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"meo far mkinh nghiem cho nguoi moi la gi?",
+    "intent":"INFO"
+  },
+  {
+    "text":"mua cay cungnay nha shop",
+    "intent":"TRADE"
+  },
+  {
+    "text":"crush onine xinh zai",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"skill này dùng kiểu gi",
+    "intent":"INFO"
+  },
+  {
+    "text":"chao anh, lau ori chua gap nhi?",
+    "intent":"GREETING"
+  },
+  {
+    "text":"in chao shop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"yo npc",
+    "intent":"GREETING"
+  },
+  {
+    "text":"ca dien thoai nay lag ghe",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"cầm ồ lấy tiền gấp ha",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ma nhieu co duoc giam gia khong?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"la msao mo tui do",
+    "intent":"INFO"
+  },
+  {
+    "text":"đồ buôn bán mất dạy",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"aaaaaaaaaa",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"đắt như ăn ưcớp, biết không?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"giam gia ti de",
+    "intent":"TRADE"
+  },
+  {
+    "text":"mua nhieu co duoc giam gia khong?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"tai sao uti khong nhan duoc quest?",
+    "intent":"INFO"
+  },
+  {
+    "text":"làm ăn kiểu chó j vay",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"bạn biết công thức lượgn giác k",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"shop ban gi the?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"mua 3 lọ mana giảm giá ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"report shop gian lan day",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"map nay co on nao kho k?",
+    "intent":"INFO"
+  },
+  {
+    "text":"game do qua",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"chỗ nào có nhiều quái để farm?",
+    "intent":"INFO"
+  },
+  {
+    "text":"mua cay cung nay nah shop",
+    "intent":"TRADE"
+  },
+  {
+    "text":"duong toi hang soi di li nao",
+    "intent":"INFO"
+  },
+  {
+    "text":"do rac ma gia cat co",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"máy t lỗi màn hình xanh r",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"mưa lớn àlm đường ngập sâu.",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"co cho cam do khong?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"hi anh ,khoe hem?",
+    "intent":"GREETING"
+  },
+  {
+    "text":"hoc skill nhanh j vay",
+    "intent":"INFO"
+  },
+  {
+    "text":"ky nang bi kha phai mo the nao",
+    "intent":"INFO"
+  },
+  {
+    "text":"npc con thu ca",
+    "intent":"GREETING"
+  },
+  {
+    "text":"cha dai ca",
+    "intent":"GREETING"
+  },
+  {
+    "text":"lang nay co hco hoi hp ko",
+    "intent":"INFO"
+  },
+  {
+    "text":"duong ra khu rung au lang di huong nao?",
+    "intent":"INFO"
+  },
+  {
+    "text":"ut me di npc",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"npc dom vl, imdi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ban do the gioi co the xem o dau?",
+    "intent":"INFO"
+  },
+  {
+    "text":"lam sao tangc hi so vay?",
+    "intent":"INFO"
+  },
+  {
+    "text":"hom nay troim ua khong",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"may t loi man hinh xahn r",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ban dat the ho",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ê cho hỏ iwifi pass",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"gia bao nhiue vay",
+    "intent":"TRADE"
+  },
+  {
+    "text":"shop có bán mana ko?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"Đồ lừa đảo, trả tiền lại!",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"mày bị lag não à",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"bro gu imeme coi",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"alo shpo",
+    "intent":"GREETING"
+  },
+  {
+    "text":"giam ga ti de",
+    "intent":"TRADE"
+  },
+  {
+    "text":"2+2=5 đúng không",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"co ban csroll teleport k?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"máy t li màn hình xanh r",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ch icach hoi sinh voi",
+    "intent":"INFO"
+  },
+  {
+    "text":"npco i",
+    "intent":"GREETING"
+  },
+  {
+    "text":"shop oi, cho em chao 1 cai",
+    "intent":"GREETING"
+  },
+  {
+    "text":"c cho cầm đồ hok",
+    "intent":"TRADE"
+  },
+  {
+    "text":"shop con online o",
+    "intent":"GREETING"
+  },
+  {
+    "text":"may bilag nao a",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"lo alo",
+    "intent":"GREETING"
+  },
+  {
+    "text":"od lua dao, tra tien lai!",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"dm, đồ bán hàng tệ vcl",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"hcao ong già =))",
+    "intent":"GREETING"
+  },
+  {
+    "text":"ban d mac vai chuong",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"e tuhong nhan",
+    "intent":"GREETING"
+  },
+  {
+    "text":"cho hỏi kỹ năng lửa học ở đâu?",
+    "intent":"INFO"
+  },
+  {
+    "text":"bao cao admin gian lan",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"con boss nay danh sa vay",
+    "intent":"INFO"
+  },
+  {
+    "text":"đồ gian thương",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"thuoc tang lu gia sao",
+    "intent":"TRADE"
+  },
+  {
+    "text":"hsop ban gi the?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"mày bịlag não à",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"h inpc nha",
+    "intent":"GREETING"
+  },
+  {
+    "text":"co dich vu gui do qua hop khong?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"cho xin so dien thoai",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"tui đói bụng qáu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"lam sao de nang cap vu khi",
+    "intent":"INFO"
+  },
+  {
+    "text":"do buon ban mat day",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"bộ giáp cũ ni thì bán duoc bao nhiêu?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"chào chú, hôm nay trông ôngkhỏe ghê.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"tahng npc rac",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ogg ià bán đồ newbie hem",
+    "intent":"TRADE"
+  },
+  {
+    "text":"shop scammer a",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"bo giap cu nay thi ban duoc ba nhieu?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"chào shop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"xin chao sohp",
+    "intent":"GREETING"
+  },
+  {
+    "text":"mẹo né dmg boss k?",
+    "intent":"INFO"
+  },
+  {
+    "text":"kho đồ của tiệm còn chỗ trống không?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"thanh kiếm này giá như nào",
+    "intent":"TRADE"
+  },
+  {
+    "text":"chao nha, tui mớiv ô làng",
+    "intent":"GREETING"
+  },
+  {
+    "text":"h npc nha",
+    "intent":"GREETING"
+  },
+  {
+    "text":"chào anh, lâu rồi chưa ặgp nhỉ?",
+    "intent":"GREETING"
+  },
+  {
+    "text":"mang nhatui chap chon",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"maythich gay war a",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"con goblin spawn o dau vy",
+    "intent":"INFO"
+  },
+  {
+    "text":"shop loz, tao ko cho nua",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"nay thu may vay?",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"đổi đá quý lấy vàng nhé?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"123456789",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"Giá Bitcoin hôm nay bao nhiêu?",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"có cách nào kiếm exp nhanh không?",
+    "intent":"INFO"
+  },
+  {
+    "text":"lma quen truoc da nha",
+    "intent":"GREETING"
+  },
+  {
+    "text":"thcih meo hay cho",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"cho nao o nhieu quai de farm?",
+    "intent":"INFO"
+  },
+  {
+    "text":"nhiem vu chinh tiep theo bat au tu dau",
+    "intent":"INFO"
+  },
+  {
+    "text":"ong gia ban don ewbie hem",
+    "intent":"TRADE"
+  },
+  {
+    "text":"cho xem danh sách vật phẩm cái",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ban tui ci kiem nao manh manh",
+    "intent":"TRADE"
+  },
+  {
+    "text":"xyzxyz123",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"Mưa lớn làm đường ngập sâu.",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"sao nay khong co nguoi yeu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"comon nao re re kh?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"chao ong chu",
+    "intent":"GREETING"
+  },
+  {
+    "text":"bán đắt z ai htèm mua",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"hao dai ca",
+    "intent":"GREETING"
+  },
+  {
+    "text":"chon ao co nhieu quai de farm?",
+    "intent":"INFO"
+  },
+  {
+    "text":"con ang moi khong",
+    "intent":"TRADE"
+  },
+  {
+    "text":"jkl jkl jl",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"game dở quá",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"npc con htuc a",
+    "intent":"GREETING"
+  },
+  {
+    "text":"lam soa mo tui do",
+    "intent":"INFO"
+  },
+  {
+    "text":"NPC ơi",
+    "intent":"GREETING"
+  },
+  {
+    "text":"npc oi alo",
+    "intent":"GREETING"
+  },
+  {
+    "text":"mua cay cung nya nha shop",
+    "intent":"TRADE"
+  },
+  {
+    "text":"hôm nay trời nóng quá",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"thuco tang luc gia sao",
+    "intent":"TRADE"
+  },
+  {
+    "text":"bong d toi nay ai thang",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"can bao nhieu lv de vao dungeon?",
+    "intent":"INFO"
+  },
+  {
+    "text":"liet ke vat pham giam gia",
+    "intent":"TRADE"
+  },
+  {
+    "text":"Máy t lỗi màn hình xanh r",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"cút khỏi đây đi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"lam sao len do som z",
+    "intent":"INFO"
+  },
+  {
+    "text":"lam an kieu cho gi avy?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"co dich vu gui do zk?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"dat vl, tao chui cho",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ti den day roi nha",
+    "intent":"GREETING"
+  },
+  {
+    "text":"skill naydung kieu gi?",
+    "intent":"INFO"
+  },
+  {
+    "text":"ong ban hng chan the",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"Xin chào thương nhân",
+    "intent":"GREETING"
+  },
+  {
+    "text":"npc nhiem vu chinh ten gi ko",
+    "intent":"INFO"
+  },
+  {
+    "text":"xin chao thuogn nhan",
+    "intent":"GREETING"
+  },
+  {
+    "text":"2+2=5 dung khong",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"jkl kjl jkl",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"gia bao nhie vay",
+    "intent":"TRADE"
+  },
+  {
+    "text":"có loại thuốc hồi hp xịn hơn không?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"Mắc vậy bán cho ma à?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ê bác bán hàng",
+    "intent":"GREETING"
+  },
+  {
+    "text":"hi npc na",
+    "intent":"GREETING"
+  },
+  {
+    "text":"cút mẹ đ npc",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"gia cut nhu vay ma cung dam mo tiem",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"map nay co con nao kho k?",
+    "intent":"INFO"
+  },
+  {
+    "text":"co dich vu gui do k?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"shop cuivl, ko choi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"choxin fb di",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"shop loz, tao ko chơi nữa",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ông bán hàng chán z",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"shop ơii, cho em chao 1 cái",
+    "intent":"GREETING"
+  },
+  {
+    "text":"giá bitcoin hôm nay bao nhiêu?",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"map này có cno nào khó k?",
+    "intent":"INFO"
+  },
+  {
+    "text":"e bac ba hang",
+    "intent":"GREETING"
+  },
+  {
+    "text":"sop co ban mana ko?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"khinh sho nay wa",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"sao tui khong danh duoc boss",
+    "intent":"INFO"
+  },
+  {
+    "text":"npc oi to bi lac",
+    "intent":"INFO"
+  },
+  {
+    "text":"duong toi hang soi di loi ao",
+    "intent":"INFO"
+  },
+  {
+    "text":"hllo og",
+    "intent":"GREETING"
+  },
+  {
+    "text":"yo bo",
+    "intent":"GREETING"
+  },
+  {
+    "text":"thi cuoi ky cang vcl",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"cho hoi gio may gio",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ngu th nghỉ bán đi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"hi np nha",
+    "intent":"GREETING"
+  },
+  {
+    "text":"asdgfhjkl",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"cầm đồ lấy tiền gấp ha",
+    "intent":"TRADE"
+  },
+  {
+    "text":"co dich vu gui do z k?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"lam sao tang chi so vay?",
+    "intent":"INFO"
+  },
+  {
+    "text":"pass wifi la g z",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ong gia ban hang, toi toi day ne.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"chao ông già =))",
+    "intent":"GREETING"
+  },
+  {
+    "text":"coh tra gop bang nguyen lieu",
+    "intent":"TRADE"
+  },
+  {
+    "text":"mua vay thi cho 1 sao",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ong ban hang chna the",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"shop con hang kovay",
+    "intent":"TRADE"
+  },
+  {
+    "text":"gia xang lia tang nua roi!!",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"gián ày cố định hả?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"chào chú, hôm naytrông ông khỏe ghê.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"dat nhu an cuop, biet kong?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"qaui nao rot da soi vay?",
+    "intent":"INFO"
+  },
+  {
+    "text":"mapnày có con nào khó k?",
+    "intent":"INFO"
+  },
+  {
+    "text":"npc oi hhee",
+    "intent":"GREETING"
+  },
+  {
+    "text":"duong toi hang soi di loi nao",
+    "intent":"INFO"
+  },
+  {
+    "text":"e htuong nhan",
+    "intent":"GREETING"
+  },
+  {
+    "text":"mua lon lam duong ngap sa.",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"npc rác vl,cút",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"thuoc tang lu cgia sao",
+    "intent":"TRADE"
+  },
+  {
+    "text":"hello nog",
+    "intent":"GREETING"
+  },
+  {
+    "text":"liet ke vatp ham giam gia",
+    "intent":"TRADE"
+  },
+  {
+    "text":"tui hết àng r bán đồ gấp",
+    "intent":"TRADE"
+  },
+  {
+    "text":"hi hsop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"ban thu cung lvthap ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"gia vang ngoia doi bao nhieu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"alo og chủ",
+    "intent":"GREETING"
+  },
+  {
+    "text":"co dich vu guido qua hop khong?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"mua full sack mau dc k",
+    "intent":"TRADE"
+  },
+  {
+    "text":"may thich gay war a",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"Đắt như ăn cướp, biết không?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"muốn vào guild thì làm sao?",
+    "intent":"INFO"
+  },
+  {
+    "text":"alo nc on khong",
+    "intent":"GREETING"
+  },
+  {
+    "text":"co cach nao hoi mana nhanh ko",
+    "intent":"INFO"
+  },
+  {
+    "text":"hello og",
+    "intent":"GREETING"
+  },
+  {
+    "text":"làm sao đổi class vậy?",
+    "intent":"INFO"
+  },
+  {
+    "text":"xin chào ông chủ tiệm.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"con bos so dau z",
+    "intent":"INFO"
+  },
+  {
+    "text":"ban hang hu cc",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"Chào anh thương nhân",
+    "intent":"GREETING"
+  },
+  {
+    "text":"sua v ukhi het bao nhieu",
+    "intent":"TRADE"
+  },
+  {
+    "text":"lam sao doi class va?",
+    "intent":"INFO"
+  },
+  {
+    "text":"cho xin fb di",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"thichmeo hay cho",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"npcr ac vl, cut",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ê npc khỏe ko",
+    "intent":"GREETING"
+  },
+  {
+    "text":"mua vay thi cho 1 so",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"shop còn online ko",
+    "intent":"GREETING"
+  },
+  {
+    "text":"làm ăn kiểu chó gi z",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"lam sao de mo khoa map",
+    "intent":"INFO"
+  },
+  {
+    "text":"chi tao cacht an gai vs",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ko tin shop nua",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"meo ne dmg boss ?k",
+    "intent":"INFO"
+  },
+  {
+    "text":"quái nay có kháng phép không?",
+    "intent":"INFO"
+  },
+  {
+    "text":"bro có chơi lol khong",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"mai co mua kong nhi",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"code python hay c++?",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"deo hieu ban hang kieu gi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"hi shop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"skill này dùng kiểu gì?",
+    "intent":"INFO"
+  },
+  {
+    "text":"shop con onlne ko",
+    "intent":"GREETING"
+  },
+  {
+    "text":"heyb ro",
+    "intent":"GREETING"
+  },
+  {
+    "text":"kiem nay nhiu vnag z",
+    "intent":"TRADE"
+  },
+  {
+    "text":"làm th nào để hồi hp giữa trận?",
+    "intent":"INFO"
+  },
+  {
+    "text":"1+1 bang may",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"bán giá ni cướp à",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"sohp scam a",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"có loại thuốc hồi hp xịn hơn ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"quest nay nhan o dau vay?",
+    "intent":"INFO"
+  },
+  {
+    "text":"c deal set giap full ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"chaoong gia =))",
+    "intent":"GREETING"
+  },
+  {
+    "text":"shop scammer à",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"boss xuat hien amy gio?",
+    "intent":"INFO"
+  },
+  {
+    "text":"npc rac vl, cut",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"quest nay nhận ở đâu vậy?",
+    "intent":"INFO"
+  },
+  {
+    "text":"dm ban gi mac vay",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"e ong anh",
+    "intent":"GREETING"
+  },
+  {
+    "text":"thich emo hay cho",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"Đường ra khu rừng đầu làng đi hướng nào?",
+    "intent":"INFO"
+  },
+  {
+    "text":"deo hieu banh ang kieu gi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"reprot shop gian lan day",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"tao dang hoc toan ma khong hieu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"xin chào nha",
+    "intent":"GREETING"
+  },
+  {
+    "text":"npc ới, tui đây nè",
+    "intent":"GREETING"
+  },
+  {
+    "text":"meo ne dmg boss k?",
+    "intent":"INFO"
+  },
+  {
+    "text":"bá đắt the chó",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"homn ay troi mua khong",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ban do mac vai chuong",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"cam dol ay tien gap ha",
+    "intent":"TRADE"
+  },
+  {
+    "text":"đéo hiểu bán hàng kiểu z",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ao giap cu ban may xeng",
+    "intent":"TRADE"
+  },
+  {
+    "text":"co cho tra gop k man?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"lm sao doi class vay?",
+    "intent":"INFO"
+  },
+  {
+    "text":"sao na khong co nguoi yeu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"meo ne dmg bss k?",
+    "intent":"INFO"
+  },
+  {
+    "text":"cut khoi day di",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"mày bị lagnão à",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"qwertyuiop",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ông già bán đồ newbie hem",
+    "intent":"TRADE"
+  },
+  {
+    "text":"may htich gay war a",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"doi ngoc lay vang dc k",
+    "intent":"TRADE"
+  },
+  {
+    "text":"helo ong",
+    "intent":"GREETING"
+  },
+  {
+    "text":"i shop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"ban tu cung lv thap ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"Hello NPC",
+    "intent":"GREETING"
+  },
+  {
+    "text":"co nhan mua o xanh ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ban at vl",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"xem bang gia hom nay",
+    "intent":"TRADE"
+  },
+  {
+    "text":"mua lon lam duong ngap sau.",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"NPC ơi hehe",
+    "intent":"GREETING"
+  },
+  {
+    "text":"tao dang hoc toan ma khog hieu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"muon vao guild th lam sao?",
+    "intent":"INFO"
+  },
+  {
+    "text":"thằng NPC rác",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ong ban hang chan the",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"lam sao doi class vay?",
+    "intent":"INFO"
+  },
+  {
+    "text":"co cho tar gop k man?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"kem nay nhiu vang z",
+    "intent":"TRADE"
+  },
+  {
+    "text":"chà ođại ca",
+    "intent":"GREETING"
+  },
+  {
+    "text":"Kho đồ của tiệm còn chỗ trống không?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"mua cai la o, ngu a?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"boss xuat hein may gio?",
+    "intent":"INFO"
+  },
+  {
+    "text":"chao dai ca",
+    "intent":"GREETING"
+  },
+  {
+    "text":"cho hỏi iờ mấy giờ",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"gia xangl ai tang nua roi!!",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"co ban ve dich chuyen sang map khac khong?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"cach hoat khi bi ket trong hang doi",
+    "intent":"INFO"
+  },
+  {
+    "text":"shop ơii, tui tới nè :v",
+    "intent":"GREETING"
+  },
+  {
+    "text":"co can v de vao map moi ko",
+    "intent":"INFO"
+  },
+  {
+    "text":"ngu thì nghỉ bán đi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"co ban scroll teleport k?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"sua v khi het bao nhieu",
+    "intent":"TRADE"
+  },
+  {
+    "text":"lam an kieu cho gi vay?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"hey rbo",
+    "intent":"GREETING"
+  },
+  {
+    "text":"toi ban dong da soi nayd uoc chu?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"anh ấy nhắn tin xinl ỗi kìa.",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"đm bán g ìmắc vậy",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"đồ buô nbán mất dạy",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"xzyxyz123",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ko tin shop una",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"shop lua dao ha",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ábn mắc thế ai chịu nổi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ong gia ban do newbie hem",
+    "intent":"TRADE"
+  },
+  {
+    "text":"npc oi cuu tui voi",
+    "intent":"INFO"
+  },
+  {
+    "text":"co cach nao kem exp nhanh khong?",
+    "intent":"INFO"
+  },
+  {
+    "text":"Bạn biết công thức lượng giác không?",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"co ai biet quest hang dong ko",
+    "intent":"INFO"
+  },
+  {
+    "text":"na yshop co hang gi moi?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"có dịch vụ gửiđồ z k?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"đổi ngọc lấy vàng dc k",
+    "intent":"TRADE"
+  },
+  {
+    "text":"bản đồ thế giới có thể xem ở đâu?",
+    "intent":"INFO"
+  },
+  {
+    "text":"bao cao admin gain lan",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"shop loz,t ao ko chơi nữa",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"mua 3 lo mana giamgia ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"hi anh, hỏe hem?",
+    "intent":"GREETING"
+  },
+  {
+    "text":"hcao shop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"thu ua rác ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ê ông anh",
+    "intent":"GREETING"
+  },
+  {
+    "text":"ky nang bi hoa phai mo the nao",
+    "intent":"INFO"
+  },
+  {
+    "text":"giam gia t ide",
+    "intent":"TRADE"
+  },
+  {
+    "text":"quai nay co khagn phep khong?",
+    "intent":"INFO"
+  },
+  {
+    "text":"con hang moi khog",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ello npc",
+    "intent":"GREETING"
+  },
+  {
+    "text":"mac vay ban cho ma a?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"mac vayb an cho ma a?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"kick shop rak hoi game di",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"liet ke vat ham giam gia",
+    "intent":"TRADE"
+  },
+  {
+    "text":"anh ấy nhn tin xin lỗi kìa.",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"gia any co dinh ha?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"cut khoi da ydi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"npc oi tui to ine",
+    "intent":"GREETING"
+  },
+  {
+    "text":"làm ăn kiểu chó gi vậy?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"tui dang farm, chao nog truoc",
+    "intent":"GREETING"
+  },
+  {
+    "text":"kick shop ra khoi game di",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ban dat vl",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ong chu kohe khong",
+    "intent":"GREETING"
+  },
+  {
+    "text":"e nog anh",
+    "intent":"GREETING"
+  },
+  {
+    "text":"ban thu cung cap thap di",
+    "intent":"TRADE"
+  },
+  {
+    "text":"alo ông chủ",
+    "intent":"GREETING"
+  },
+  {
+    "text":"xin chao ong chu tiem.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"npc oin ghe tui ko",
+    "intent":"GREETING"
+  },
+  {
+    "text":"t bán đống da sói ni được chứ?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ehy bro",
+    "intent":"GREETING"
+  },
+  {
+    "text":"al alo",
+    "intent":"GREETING"
+  },
+  {
+    "text":"bro gui meme coi",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"bro an com chua",
+    "intent":"GREETING"
+  },
+  {
+    "text":"npcơ i hehe",
+    "intent":"GREETING"
+  },
+  {
+    "text":"tao đập shop giờ",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"chit ao cach tan gai vs",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"chỉ tao cách tán gái vs",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"kkkkkkkk",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"nay shop co hang gi moi?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"alm sao doi class vay?",
+    "intent":"INFO"
+  },
+  {
+    "text":"toi ban dong da soi nay duoc chu?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"tao đập sho giờ",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"caho npc nha",
+    "intent":"GREETING"
+  },
+  {
+    "text":"quái nào rớt da sói vậy?",
+    "intent":"INFO"
+  },
+  {
+    "text":"boss xuất hiện mấy giờ?",
+    "intent":"INFO"
+  },
+  {
+    "text":"quest nay lam aso z",
+    "intent":"INFO"
+  },
+  {
+    "text":"muon vao guild hi lam sao?",
+    "intent":"INFO"
+  },
+  {
+    "text":"mua nhiều có dc giảm giá không?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"gia bao nhieu avy",
+    "intent":"TRADE"
+  },
+  {
+    "text":"NPC ơi tui tới nè",
+    "intent":"GREETING"
+  },
+  {
+    "text":"shop loz,tao ko choi nua",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"quai nay yeu voi he g vay?",
+    "intent":"INFO"
+  },
+  {
+    "text":"hom nay troi nng qua",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"coh hoi gio may gio",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"e ong chu",
+    "intent":"GREETING"
+  },
+  {
+    "text":"deo hieu ban hang kieugi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"bán đắt z ai thèm mua",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"cnầ bao nhiêu lv để vào dungeon?",
+    "intent":"INFO"
+  },
+  {
+    "text":"doi da quy lay vang nhe?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"shop sca ma",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"thằng npc rác",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"xin chao nha",
+    "intent":"GREETING"
+  },
+  {
+    "text":"npc dỏm vl, im i",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"chi cach hoi sinh voi",
+    "intent":"INFO"
+  },
+  {
+    "text":"mẹ gọi về ăn cơm r",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ch cach hoi sinh voi",
+    "intent":"INFO"
+  },
+  {
+    "text":"cach thoat khi bi kte trong hang doi",
+    "intent":"INFO"
+  },
+  {
+    "text":"kick shopr a khoi game di",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"liet ke vat pham giamgia",
+    "intent":"TRADE"
+  },
+  {
+    "text":"tui het vang roiban do gap",
+    "intent":"TRADE"
+  },
+  {
+    "text":"game do ua",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"asfghjkl",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"bán iá ni cướp à",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ê sop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"shop co ban mana ko?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"tuoc tang luc gia sao",
+    "intent":"TRADE"
+  },
+  {
+    "text":"chao ng chu",
+    "intent":"GREETING"
+  },
+  {
+    "text":"chào chú, hôm nay trông ông khỏe ghê.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"12456789",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"thu mau rac ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"co cach nao hoi manan hanh ko",
+    "intent":"INFO"
+  },
+  {
+    "text":"ba do dom qua",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"npc nhiệm vụ chính tên gì ko",
+    "intent":"INFO"
+  },
+  {
+    "text":"làm sao đổi class v",
+    "intent":"INFO"
+  },
+  {
+    "text":"may t loi man hinh xnh r",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"cho xin số điện thoại",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"mở cổng làng kiểu gì vs",
+    "intent":"INFO"
+  },
+  {
+    "text":"cho hỏi trưởng làng ở đâu?",
+    "intent":"INFO"
+  },
+  {
+    "text":"do gian thung",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"abn mac the ai chiu noi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"mai co mua khong ni",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"thu ma rac ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ong oi, tui dan game thu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"cai dien thoai nay lag ghe",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"thang npc rac",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"m coi thuong t a",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"thi cuoi yk cang vcl",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ban biet cong thuc luong giac khong?",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"quest nay lam sao z",
+    "intent":"INFO"
+  },
+  {
+    "text":"alo hsop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"chà oshop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"cho hoi truong lang o dau?",
+    "intent":"INFO"
+  },
+  {
+    "text":"lay cho toi ba thuoc hoi mu",
+    "intent":"TRADE"
+  },
+  {
+    "text":"uma cay cung nay nha shop",
+    "intent":"TRADE"
+  },
+  {
+    "text":"dm bang i mac vay",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"muốn vào guild thì lm sao?",
+    "intent":"INFO"
+  },
+  {
+    "text":"chao npc nha",
+    "intent":"GREETING"
+  },
+  {
+    "text":"shop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"gia xang lai tang una roi!!",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"conh ang moi khong",
+    "intent":"TRADE"
+  },
+  {
+    "text":"zzzzzzz",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"Mua cái là lỗ, ngu à?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"cho hỏ ikỹ năng lửa học ở đâu?",
+    "intent":"INFO"
+  },
+  {
+    "text":"npc oitoi bi lac",
+    "intent":"INFO"
+  },
+  {
+    "text":"có dịch vụ gửi đồ z k?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"conb oss o dau z",
+    "intent":"INFO"
+  },
+  {
+    "text":"doi viet nam da hay lam!",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"nhiem vu chinh tiep theo bat dau tu dau",
+    "intent":"INFO"
+  },
+  {
+    "text":"đường tới hang sói đi lối nào",
+    "intent":"INFO"
+  },
+  {
+    "text":"124356789",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"lam sao mo tui do",
+    "intent":"INFO"
+  },
+  {
+    "text":"cai mu nay nhiu z shp",
+    "intent":"TRADE"
+  },
+  {
+    "text":"Có dịch vụ gửi đồ qua hộp không?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"hey bro",
+    "intent":"GREETING"
+  },
+  {
+    "text":"tại sao tui không nhận được quest?",
+    "intent":"INFO"
+  },
+  {
+    "text":"con golin spawn o dau vay",
+    "intent":"INFO"
+  },
+  {
+    "text":"chào anh, lâu r chưa gặp nhỉ?",
+    "intent":"GREETING"
+  },
+  {
+    "text":"Giá này cố định hả?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"mưa lớn làm đường ngập sâu.",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"khinh shp nay wa",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"shop bán gì z",
+    "intent":"TRADE"
+  },
+  {
+    "text":"gia nay co dinh ha?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"gim gia ti de",
+    "intent":"TRADE"
+  },
+  {
+    "text":"lams ao len do som z",
+    "intent":"INFO"
+  },
+  {
+    "text":"cần bao nhiêu lv để vào dungeon?",
+    "intent":"INFO"
+  },
+  {
+    "text":"tiệm còn hàng giới hạn hem",
+    "intent":"TRADE"
+  },
+  {
+    "text":"oggià bán hàng, tôi tới đây nè.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"cach thoatkhi bi ket trong hang doi",
+    "intent":"INFO"
+  },
+  {
+    "text":"lam quen truoc a nha",
+    "intent":"GREETING"
+  },
+  {
+    "text":"bản đồ z giới có thể xem ở đâu?",
+    "intent":"INFO"
+  },
+  {
+    "text":"bao cao damin gian lan",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"7x8 bang bao nhieu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"shop lom com wa khong ban nua",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"nay thứ mấy z",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ch xin fb di",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"thu mua rac ok",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ong o, tui dan game thu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"do buon ban at day",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"mẹg ọi về ăn cơm r",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"đắt vl, tao chửi cho",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"lam the nao de hoi hp giua tran?",
+    "intent":"INFO"
+  },
+  {
+    "text":"abc 123 def",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"con goblin spawn o dau vay",
+    "intent":"INFO"
+  },
+  {
+    "text":"mai co mua khong nhi",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ai biết đường tới rừng đen k",
+    "intent":"INFO"
+  },
+  {
+    "text":"chỉ cách hồi sinh với",
+    "intent":"INFO"
+  },
+  {
+    "text":"sao na ykhong co nguoi yeu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"đm bán z ắmc vậy",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"gia bao nhieu vay",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ko ti nshop nua",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"m muon an dma a",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"kẹt map r chỉ với",
+    "intent":"INFO"
+  },
+  {
+    "text":"tui hết vàng rồi bán đồ gấp",
+    "intent":"TRADE"
+  },
+  {
+    "text":"NPC ơi tôi bị lạc",
+    "intent":"INFO"
+  },
+  {
+    "text":"co cho cam od khong?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"có bán vé dịch chuyển sang map khác ko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"anh ay nhan tin xin loi kia.",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"dien thoai het pni r",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"lay cho toi ba thuoc hoi mau",
+    "intent":"TRADE"
+  },
+  {
+    "text":"7x8 bagn bao nhieu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"dm, do ban han te vcl",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"co ai bite quest hang dong ko",
+    "intent":"INFO"
+  },
+  {
+    "text":"may bi lag nao a",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"thằng thương nhân lừa đảo",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"hey bo",
+    "intent":"GREETING"
+  },
+  {
+    "text":"hellonpc",
+    "intent":"GREETING"
+  },
+  {
+    "text":"máy t lỗi mnà hình xanh r",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"dat v, tao chui cho",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"mạg nhà tui chập chờn",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"e thuong nhn",
+    "intent":"GREETING"
+  },
+  {
+    "text":"crush oline xinh zai",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"shop rác vcl",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"gia vang ngoai doi bao nhiu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"NPC phế vl",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"npc ơi cứu tui với",
+    "intent":"INFO"
+  },
+  {
+    "text":"xin chào thương nhân",
+    "intent":"GREETING"
+  },
+  {
+    "text":"dat nhu an cuop, biet khong?",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"shop con online ko",
+    "intent":"GREETING"
+  },
+  {
+    "text":"y obro",
+    "intent":"GREETING"
+  },
+  {
+    "text":"chao chu, hom nay trong ong khoe ghe.",
+    "intent":"GREETING"
+  },
+  {
+    "text":"con boss ở đâu z",
+    "intent":"INFO"
+  },
+  {
+    "text":"Cho hỏi kỹ năng lửa học ở đâu?",
+    "intent":"INFO"
+  },
+  {
+    "text":"nguoi yeu cu khong ra loi tin nhan",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"caho ong gia",
+    "intent":"GREETING"
+  },
+  {
+    "text":"quai nay yeu voi e gi vay?",
+    "intent":"INFO"
+  },
+  {
+    "text":"mẹo farm kinh nghiệm cho người mới là z",
+    "intent":"INFO"
+  },
+  {
+    "text":"càho shop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"yon pc",
+    "intent":"GREETING"
+  },
+  {
+    "text":"gia cut nh vay ma cung dam mo tiem",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"chao anh, lau roi chua gap nhi?",
+    "intent":"GREETING"
+  },
+  {
+    "text":"Mua nhiều có được giảm giá không?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"report shp gian lan day",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"nhiem vu chinh tiep tho bat dau tu dau",
+    "intent":"INFO"
+  },
+  {
+    "text":"ban tui cai kiem na manh manh",
+    "intent":"TRADE"
+  },
+  {
+    "text":"npc oi toi bi lac",
+    "intent":"INFO"
+  },
+  {
+    "text":"shop scammera",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"làm sao lên đồ sớ mz",
+    "intent":"INFO"
+  },
+  {
+    "text":"co cho cam dokhong?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"Mẹo farm kinh nghiệm cho người mới là gì?",
+    "intent":"INFO"
+  },
+  {
+    "text":"shpo scammer a",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"npc rác vl, cút",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"lao alo",
+    "intent":"GREETING"
+  },
+  {
+    "text":"kho do cua tiem con cho trong khong?",
+    "intent":"TRADE"
+  },
+  {
+    "text":"ky nang bi khoa phai mo the nao",
+    "intent":"INFO"
+  },
+  {
+    "text":"giá xăng lại tăng nữa r",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"mua 3 lọ mana giảm giáko",
+    "intent":"TRADE"
+  },
+  {
+    "text":"datvl, tao chui cho",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"shopơ ii, tui tới nè :v",
+    "intent":"GREETING"
+  },
+  {
+    "text":"shop la dao ha",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"tao dap shop gio",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"cho hỏi giờ mấy giờ",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ê shop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"ê ông chủ",
+    "intent":"GREETING"
+  },
+  {
+    "text":"lam so de nang cap vu khi",
+    "intent":"INFO"
+  },
+  {
+    "text":"gia nay co dinh h?a",
+    "intent":"TRADE"
+  },
+  {
+    "text":"bán giá nay cướp à",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"ban gia nay cuop a",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"npc oi hehe",
+    "intent":"GREETING"
+  },
+  {
+    "text":"mua 10 binh mau het nhiu",
+    "intent":"TRADE"
+  },
+  {
+    "text":"tui doi bung qua",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"giá bitcoin hôm nay ao nhiêu?",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"tui het vang roi ban dog ap",
+    "intent":"TRADE"
+  },
+  {
+    "text":"gia bao hnieu vay",
+    "intent":"TRADE"
+  },
+  {
+    "text":"xinc hao shop",
+    "intent":"GREETING"
+  },
+  {
+    "text":"thang thuong nhan lua dao",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"gia vang ngoai doi bao nhieu",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"lam sao len do osm z",
+    "intent":"INFO"
+  },
+  {
+    "text":"m muon an am a",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"xin chào thương nâhn",
+    "intent":"GREETING"
+  },
+  {
+    "text":"quest nayn han o dau vay?",
+    "intent":"INFO"
+  },
+  {
+    "text":"shop cui vl ko choi",
+    "intent":"HOSTILE"
+  },
+  {
+    "text":"gia xang lai tang nua roi!!",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"ab c123 def",
+    "intent":"UNKNOWN"
+  },
+  {
+    "text":"e npc khoe ko",
+    "intent":"GREETING"
+  },
+  {
+    "text":"chao ong gia =))",
+    "intent":"GREETING"
+  }
+]

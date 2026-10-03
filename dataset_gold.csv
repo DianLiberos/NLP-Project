@@ -1,0 +1,251 @@
+id,text,annonator_1,annonator_2,final intent
+1,hôm nay trời nóng quá,UNKNOWN,UNKNOWN,UNKNOWN
+2,muốn vào guild thì làm sao?,INFO,INFO,INFO
+3,shop còn online ko,GREETING,TRADE,GREETING
+4,ê shop,GREETING,GREETING,GREETING
+5,làm sao học skill mới?,INFO,INFO,INFO
+6,Chào anh thương nhân,GREETING,GREETING,GREETING
+7,lam sao de nang cap vu khi,INFO,INFO,INFO
+8,Bản đồ thế giới có thể xem ở đâu?,INFO,INFO,INFO
+9,xin chao shop,GREETING,GREETING,GREETING
+10,Quest này nhận ở đâu vậy?,INFO,INFO,INFO
+11,quái này có kháng phép không?,INFO,INFO,INFO
+12,Có loại thuốc hồi HP xịn hơn không?,TRADE,INFO,TRADE
+13,crush online xinh zai,UNKNOWN,UNKNOWN,UNKNOWN
+14,làm sao lên đồ sớm z,INFO,INFO,INFO
+15,Hi ông chủ,GREETING,GREETING,GREETING
+16,hom nay troi mua khong,UNKNOWN,UNKNOWN,UNKNOWN
+17,giam gia ti de,TRADE,TRADE,TRADE
+18,"shop cùi vl, ko chơi",HOSTILE,HOSTILE,HOSTILE
+19,chao npc nha,GREETING,GREETING,GREETING
+20,Giá này cố định hả?,TRADE,TRADE,TRADE
+21,shop scammer à,HOSTILE,HOSTILE,HOSTILE
+22,cút mẹ đi NPC,HOSTILE,HOSTILE,HOSTILE
+23,thuoc tang luc gia sao,TRADE,TRADE,TRADE
+24,NPC ơi tôi bị lạc,INFO,INFO,INFO
+25,mạng nhà tui chập chờn,UNKNOWN,UNKNOWN,UNKNOWN
+26,bro gửi meme coi,UNKNOWN,UNKNOWN,UNKNOWN
+27,kẹt map r chỉ với,INFO,INFO,INFO
+28,ban re hon chut dc ko bro,TRADE,TRADE,TRADE
+29,NPC oi chi tui cach farm exp,INFO,INFO,INFO
+30,gia cut nhu vay ma cung dam mo tiem,HOSTILE,HOSTILE,HOSTILE
+31,hey bro,GREETING,GREETING,GREETING
+32,cút đi ông nội,HOSTILE,HOSTILE,HOSTILE
+33,làm sao tăng chỉ số vậy?,INFO,INFO,INFO
+34,bong da toi nay ai thang,UNKNOWN,UNKNOWN,UNKNOWN
+35,ê ông chủ,GREETING,GREETING,GREETING
+36,con boss ở đâu z,INFO,INFO,INFO
+37,"dm, đồ bán hàng tệ vcl",HOSTILE,HOSTILE,HOSTILE
+38,phim bo han quoc xem chua,UNKNOWN,UNKNOWN,UNKNOWN
+39,mua cay cung nay nha shop,TRADE,TRADE,TRADE
+40,"ong oi, tui dan game thu",GREETING,UNKNOWN,UNKNOWN
+41,ban do dom qua,HOSTILE,TRADE,HOSTILE
+42,hi shop,GREETING,GREETING,GREETING
+43,làm sao đổi class vậy?,INFO,INFO,INFO
+44,jkl jkl jkl,UNKNOWN,UNKNOWN,UNKNOWN
+45,con hang moi khong,TRADE,TRADE,TRADE
+46,tui bị kẹt trong map r,INFO,INFO,INFO
+47,co nhan mua do xanh ko,TRADE,TRADE,TRADE
+48,"npc ới, tui đây nè",GREETING,GREETING,GREETING
+49,Thanh kiếm này giá như nào,TRADE,TRADE,TRADE
+50,tại sao tui không nhận được quest?,INFO,INFO,INFO
+51,"Chào chú, hôm nay trông ông khỏe ghê.",GREETING,GREETING,GREETING
+52,yo bro,GREETING,GREETING,GREETING
+53,ban thu cung cap thap di,TRADE,TRADE,TRADE
+54,bao cao admin gian lan,HOSTILE,UNKNOWN,UNKNOWN
+55,chào đại ca,GREETING,GREETING,GREETING
+56,"shop loz, tao ko chơi nữa",HOSTILE,HOSTILE,HOSTILE
+57,"shop ơii, cho em chao 1 cái",GREETING,UNKNOWN,GREETING
+58,đổi ngọc lấy vàng dc k,TRADE,TRADE,TRADE
+59,đồ buôn bán mất dạy,HOSTILE,HOSTILE,HOSTILE
+60,cai mu nay nhiu z shop,TRADE,TRADE,TRADE
+61,Quái này yếu với hệ gì vậy?,INFO,INFO,INFO
+62,chỉ cách hồi sinh với,INFO,INFO,INFO
+63,cho tra gop bang nguyen lieu,TRADE,TRADE,TRADE
+64,lam quen truoc da nha,GREETING,GREETING,GREETING
+65,nhiem vu chinh tiep theo bat dau tu dau,INFO,INFO,INFO
+66,7x8 bằng bao nhiêu,UNKNOWN,UNKNOWN,UNKNOWN
+67,Hi NPC nha,GREETING,GREETING,GREETING
+68,thằng thương nhân lừa đảo,HOSTILE,HOSTILE,HOSTILE
+69,Làm thế nào để hồi HP giữa trận?,INFO,INFO,INFO
+70,co ban scroll teleport k?,TRADE,TRADE,TRADE
+71,"Ông già bán hàng, tôi tới đây nè.",GREETING,GREETING,GREETING
+72,ê bác bán hàng,GREETING,GREETING,GREETING
+73,code python hay c++?,UNKNOWN,UNKNOWN,UNKNOWN
+74,sua vu khi het bao nhieu,TRADE,TRADE,TRADE
+75,mở cổng làng kiểu gì vs,INFO,INFO,INFO
+76,ban tui cai kiem nao manh manh,TRADE,TRADE,TRADE
+77,đường tới hang sói đi lối nào,INFO,INFO,INFO
+78,NPC ơi,GREETING,GREETING,GREETING
+79,Anh ấy nhắn tin xin lỗi kìa.,UNKNOWN,UNKNOWN,UNKNOWN
+80,shop lừa đảo hả,HOSTILE,TRADE,HOSTILE
+81,Mắc vậy bán cho ma à?,HOSTILE,TRADE,HOSTILE
+82,Máy t lỗi màn hình xanh r,UNKNOWN,UNKNOWN,UNKNOWN
+83,lam sao de mo khoa map,INFO,INFO,INFO
+84,NPC ơi tui tới nè,GREETING,GREETING,GREETING
+85,qazwsxedc,UNKNOWN,UNKNOWN,UNKNOWN
+86,làm ăn kiểu chó gì vậy?,HOSTILE,HOSTILE,HOSTILE
+87,toi den day roi nha,GREETING,GREETING,GREETING
+88,quái nào rớt da sói vậy?,INFO,INFO,INFO
+89,xin chào nha,GREETING,GREETING,GREETING
+90,alo ông chủ,GREETING,GREETING,GREETING
+91,tui hết vàng rồi bán đồ gấp,TRADE,TRADE,TRADE
+92,Mua nhiều có được giảm giá không?,TRADE,TRADE,TRADE
+93,NPC còn thức à,GREETING,GREETING,GREETING
+94,Giá Bitcoin hôm nay bao nhiêu?,UNKNOWN,UNKNOWN,UNKNOWN
+95,cút khỏi đây đi,HOSTILE,HOSTILE,HOSTILE
+96,bán mắc thế ai chịu nổi,HOSTILE,TRADE,HOSTILE
+97,alo alo,GREETING,GREETING,GREETING
+98,chỗ nào có nhiều quái để farm?,INFO,INFO,INFO
+99,mày bị lag não à,HOSTILE,HOSTILE,HOSTILE
+100,Bạn biết công thức lượng giác không?,UNKNOWN,UNKNOWN,UNKNOWN
+101,điện thoại hết pin r,UNKNOWN,UNKNOWN,UNKNOWN
+102,NPC oi nghe tui ko,GREETING,GREETING,GREETING
+103,alo shop,GREETING,GREETING,GREETING
+104,game dở quá,UNKNOWN,UNKNOWN,UNKNOWN
+105,Xin chào thương nhân,GREETING,GREETING,GREETING
+106,cong dich chuyen o dau,INFO,INFO,INFO
+107,"Mua cái là lỗ, ngu à?",HOSTILE,HOSTILE,HOSTILE
+108,"đắt vl, tao chửi cho",HOSTILE,HOSTILE,HOSTILE
+109,m coi thường t à,HOSTILE,HOSTILE,HOSTILE
+110,nguoi yeu cu khong tra loi tin nhan,UNKNOWN,UNKNOWN,UNKNOWN
+111,xyzxyz123,UNKNOWN,UNKNOWN,UNKNOWN
+112,con goblin spawn o dau vay,INFO,INFO,INFO
+113,Hello NPC,GREETING,GREETING,GREETING
+114,shop scam à,HOSTILE,TRADE,HOSTILE
+115,bán đắt thế chó,HOSTILE,HOSTILE,HOSTILE
+116,Cho hỏi kỹ năng lửa học ở đâu?,INFO,INFO,INFO
+117,có cho cầm đồ không?,TRADE,TRADE,TRADE
+118,bro ăn cơm chưa,UNKNOWN,GREETING,GREETING
+119,thằng NPC rác,HOSTILE,HOSTILE,HOSTILE
+120,ban dat vl,HOSTILE,HOSTILE,HOSTILE
+121,cái điện thoại này lag ghê,UNKNOWN,UNKNOWN,UNKNOWN
+122,mày thích gây war à,HOSTILE,HOSTILE,HOSTILE
+123,mua 3 lọ mana giảm giá ko,TRADE,TRADE,TRADE
+124,Xin chào ông chủ tiệm.,GREETING,GREETING,GREETING
+125,tui co 2k vang mua dc gi,TRADE,TRADE,TRADE
+126,tao dang hoc toan ma khong hieu,UNKNOWN,UNKNOWN,UNKNOWN
+127,mẹo né dmg boss k?,INFO,INFO,INFO
+128,"Đắt như ăn cướp, biết không?",HOSTILE,HOSTILE,HOSTILE
+129,Cho hỏi trưởng làng ở đâu?,INFO,INFO,INFO
+130,NPC ơi alo,GREETING,GREETING,GREETING
+131,"Chào anh, lâu rồi chưa gặp nhỉ?",GREETING,GREETING,GREETING
+132,liet ke vat pham giam gia,TRADE,TRADE,TRADE
+133,bán thú cưng lv thấp ko,TRADE,TRADE,TRADE
+134,kiem nay nhiu vang z,TRADE,TRADE,TRADE
+135,zzzzzzzz,UNKNOWN,UNKNOWN,UNKNOWN
+136,mua vay thi cho 1 sao,HOSTILE,TRADE,HOSTILE
+137,shop rác vcl,HOSTILE,HOSTILE,HOSTILE
+138,nay thứ mấy vậy?,UNKNOWN,UNKNOWN,UNKNOWN
+139,Có dịch vụ gửi đồ qua hộp không?,TRADE,UNKNOWN,TRADE
+140,map này có con nào khó k?,INFO,INFO,INFO
+141,có bán vé dịch chuyển sang map khác không?,TRADE,TRADE,TRADE
+142,cầm đồ lấy tiền gấp ha,TRADE,TRADE,TRADE
+143,bán hàng như cc,HOSTILE,HOSTILE,HOSTILE
+144,đồ gian thương,HOSTILE,HOSTILE,HOSTILE
+145,cho xin fb di,UNKNOWN,UNKNOWN,UNKNOWN
+146,ky nang bi khoa phai mo the nao,INFO,INFO,INFO
+147,Kho đồ của tiệm còn chỗ trống không?,TRADE,TRADE,TRADE
+148,mua 10 binh mau het nhiu,TRADE,TRADE,TRADE
+149,"Đồ lừa đảo, trả tiền lại!",HOSTILE,HOSTILE,HOSTILE
+150,mẹ gọi về ăn cơm r,UNKNOWN,UNKNOWN,UNKNOWN
+151,quest này làm sao z,INFO,INFO,INFO
+152,NPC ơi hehe,GREETING,GREETING,GREETING
+153,alo npc on khong,GREETING,GREETING,GREETING
+154,thu mua rác ko,TRADE,TRADE,TRADE
+155,NPC ơi cứu tui với,INFO,INFO,INFO
+156,Co cho tra gop k man?,TRADE,TRADE,TRADE
+157,co cach nao hoi mana nhanh ko,INFO,INFO,INFO
+158,con boss nay danh sao vay,INFO,INFO,INFO
+159,ko tin shop nua,HOSTILE,TRADE,HOSTILE
+160,"npc dỏm vl, im đi",HOSTILE,HOSTILE,HOSTILE
+161,có dịch vụ gửi đồ z k?,TRADE,TRADE,TRADE
+162,npc nhiệm vụ chính tên gì ko,INFO,INFO,INFO
+163,cach thoat khi bi ket trong hang doi,INFO,INFO,INFO
+164,"tui dang farm, chao ong truoc",GREETING,GREETING,GREETING
+165,gia vang ngoai doi bao nhieu,UNKNOWN,UNKNOWN,UNKNOWN
+166,boss xuất hiện mấy giờ?,INFO,INFO,INFO
+167,Đường ra khu rừng đầu làng đi hướng nào?,INFO,INFO,INFO
+168,chỉ tao cách tán gái vs,UNKNOWN,UNKNOWN,UNKNOWN
+169,aaaaaaaaaa,UNKNOWN,UNKNOWN,UNKNOWN
+170,Mẹo farm kinh nghiệm cho người mới là gì?,INFO,INFO,INFO
+171,skill này dùng kiểu gì?,INFO,INFO,INFO
+172,sao nay khong co nguoi yeu,UNKNOWN,UNKNOWN,UNKNOWN
+173,2+2=5 đúng không,UNKNOWN,UNKNOWN,UNKNOWN
+174,đéo hiểu bán hàng kiểu gì,HOSTILE,HOSTILE,HOSTILE
+175,123456789,UNKNOWN,UNKNOWN,UNKNOWN
+176,làng này có chỗ hồi HP ko,INFO,INFO,INFO
+177,chào shop,GREETING,GREETING,GREETING
+178,ê cho hỏi wifi pass,UNKNOWN,UNKNOWN,UNKNOWN
+179,Đội Việt Nam đá hay lắm!,UNKNOWN,UNKNOWN,UNKNOWN
+180,cần bao nhiêu lv để vào dungeon?,INFO,INFO,INFO
+181,Report shop gian lận đấy,HOSTILE,UNKNOWN,UNKNOWN
+182,cho hỏi giờ mấy giờ,UNKNOWN,UNKNOWN,UNKNOWN
+183,có cách nào kiếm exp nhanh không?,INFO,INFO,INFO
+184,asdfghjkl,UNKNOWN,UNKNOWN,UNKNOWN
+185,do rac ma gia cat co,HOSTILE,HOSTILE,HOSTILE
+186,ông bán hàng chán thế,HOSTILE,GREETING,HOSTILE
+187,hello bro,GREETING,GREETING,GREETING
+188,qwertyuiop,UNKNOWN,UNKNOWN,UNKNOWN
+189,áo giáp cũ bán mấy xèng,TRADE,TRADE,TRADE
+190,sao tui không đánh được boss,INFO,INFO,INFO
+191,tui đói bụng quá,UNKNOWN,UNKNOWN,UNKNOWN
+192,mai có mưa không nhỉ,UNKNOWN,UNKNOWN,UNKNOWN
+193,2 x 3 bang may,UNKNOWN,UNKNOWN,UNKNOWN
+194,shop oi fix gia binh mau dc ko,TRADE,TRADE,TRADE
+195,chao ông già =)),GREETING,GREETING,GREETING
+196,co deal set giap full ko,TRADE,TRADE,TRADE
+197,ông chủ khỏe không,GREETING,GREETING,GREETING
+198,thương nhân gì mà gà thế,HOSTILE,HOSTILE,HOSTILE
+199,Tôi bán đống da sói này được chứ?,TRADE,TRADE,TRADE
+200,shop có bán mana ko?,TRADE,TRADE,TRADE
+201,shop lom com wa khong ban nua,HOSTILE,TRADE,HOSTILE
+202,thich meo hay cho,UNKNOWN,UNKNOWN,UNKNOWN
+203,ê thương nhân,GREETING,GREETING,GREETING
+204,co can lv de vao map moi ko,INFO,INFO,INFO
+205,bán đắt z ai thèm mua,HOSTILE,TRADE,HOSTILE
+206,Nay shop co hang gi moi?,TRADE,TRADE,TRADE
+207,bán đồ mắc vãi chưởng,HOSTILE,TRADE,HOSTILE
+208,pass wifi la gi z,UNKNOWN,UNKNOWN,UNKNOWN
+209,NPC phế vl,HOSTILE,HOSTILE,HOSTILE
+210,m muốn ăn đấm à,HOSTILE,HOSTILE,HOSTILE
+211,học skill nhanh j vậy,INFO,INFO,INFO
+212,mua full stack mau dc k,TRADE,TRADE,TRADE
+213,đm bán gì mắc vậy,HOSTILE,HOSTILE,HOSTILE
+214,ai biết đường tới rừng đen không,INFO,INFO,INFO
+215,kick shop ra khoi game di,HOSTILE,HOSTILE,HOSTILE
+216,"npc rác vl, cút",HOSTILE,HOSTILE,HOSTILE
+217,chao ong gia,GREETING,GREETING,GREETING
+218,shop con hang ko vay,TRADE,TRADE,TRADE
+219,hello ông,GREETING,GREETING,GREETING
+220,"shop ơii, tui tới nè :v",GREETING,GREETING,GREETING
+221,co ai biet quest hang dong ko,INFO,INFO,INFO
+222,kkkkkkkk,UNKNOWN,UNKNOWN,UNKNOWN
+223,bộ giáp cũ này thì bán được bao nhiêu?,TRADE,TRADE,TRADE
+224,co mon nao re re kh?,TRADE,TRADE,TRADE
+225,chao ong chu,GREETING,GREETING,GREETING
+226,cho xin số điện thoại,UNKNOWN,UNKNOWN,UNKNOWN
+227,ê NPC khỏe ko,GREETING,GREETING,GREETING
+228,cho xem danh sách vật phẩm cái,TRADE,TRADE,TRADE
+229,bán giá này cướp à,HOSTILE,HOSTILE,HOSTILE
+230,khinh shop nay wa,HOSTILE,HOSTILE,HOSTILE
+231,"hi anh, khỏe hem?",GREETING,GREETING,GREETING
+232,bro có chơi LOL không,UNKNOWN,UNKNOWN,UNKNOWN
+233,abc 123 def,UNKNOWN,UNKNOWN,UNKNOWN
+234,Mưa lớn làm đường ngập sâu.,UNKNOWN,UNKNOWN,UNKNOWN
+235,gia bao nhieu vay,TRADE,TRADE,TRADE
+236,ông già bán đồ newbie hem,TRADE,TRADE,TRADE
+237,ê ông anh,GREETING,GREETING,GREETING
+238,"chao nha, tui mới vô làng",GREETING,GREETING,GREETING
+239,1+1 bang may,UNKNOWN,UNKNOWN,UNKNOWN
+240,đổi đá quý lấy vàng nhé?,TRADE,TRADE,TRADE
+241,ngu thì nghỉ bán đi,HOSTILE,HOSTILE,HOSTILE
+242,tiệm còn hàng giới hạn hem,TRADE,TRADE,TRADE
+243,lam sao mo tui do,INFO,INFO,INFO
+244,xem bang gia hom nay,TRADE,TRADE,TRADE
+245,tao đập shop giờ,HOSTILE,HOSTILE,HOSTILE
+246,shop bán gì thế?,TRADE,TRADE,TRADE
+247,Giá xăng lại tăng nữa rồi!!,UNKNOWN,UNKNOWN,UNKNOWN
+248,thi cuối kỳ căng vcl,UNKNOWN,UNKNOWN,UNKNOWN
+249,lay cho toi ba thuoc hoi mau,TRADE,TRADE,TRADE
+250,yo NPC,GREETING,GREETING,GREETING
