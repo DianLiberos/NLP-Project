@@ -1,9 +1,11 @@
+from neural_network import NeuralNetwork
 import numpy as np
 import os 
 from scipy.sparse import csr_matrix
 import torch
 from torch import nn
 from torch.utils.data import TensorDataset, DataLoader, dataloader
+
 
 data = np.load('data/X_train.npz')
 X_train = csr_matrix(( data['data'], data['indices'], data['indptr']), shape=data['shape'])
@@ -23,22 +25,6 @@ test_dataloader = DataLoader(test_dataset, batch_size=32, shuffle=True)
 
 device = torch.accelerator.current_accelerator().type if torch.accelerator.is_available() else "cpu"
 print(f"Using {device} device")
-
-class NeuralNetwork(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.linear_relu_stack = nn.Sequential(
-                nn.Linear(2000, 512),
-                nn.ReLU(),
-                nn.Linear(512, 512),
-                nn.ReLU(),
-                nn.Linear(512, 5)
-                )
-
-    def forward(self, x):
-        logits = self.linear_relu_stack(x)
-        return logits
-
 
 model = NeuralNetwork()
 loss_fn = nn.CrossEntropyLoss()
@@ -82,3 +68,5 @@ for t in range(epochs):
     train_loop(train_dataloader, model, loss_fn, optimizer)
     test_loop(test_dataloader, model, loss_fn)
 print("Done!")
+torch.save(model.state_dict(), "network/model_test.pth")
+print("Saved model")
