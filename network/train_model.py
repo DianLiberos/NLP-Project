@@ -1,32 +1,39 @@
+import sys
+from pathlib import Path
 from neural_network import NeuralNetwork
 import numpy as np
 import os 
+import scipy.sparse as sp
 from scipy.sparse import csr_matrix
 import torch
 from torch import nn
 from torch.utils.data import TensorDataset, DataLoader, dataloader
 
+CURRENT_DIR = Path(__file__).resolve().parent
+ROOT_DIR = CURRENT_DIR.parent
 
-data = np.load('data/X_train.npz')
-X_train = csr_matrix(( data['data'], data['indices'], data['indptr']), shape=data['shape'])
-X_train_dense = X_train.toarray()
+sys.path.append(str(CURRENT_DIR))
+from neural_network import NeuralNetwork
+
+NPZ_DIR = ROOT_DIR / "data" / "npz" / "old_npz_data"
+NPY_DIR = ROOT_DIR / "data" / "npy" / "old_npy_data"
+MODEL_SAVE_PATH = CURRENT_DIR / "model.pth"
+
+X_train_dense = sp.load_npz(NPZ_DIR / "X_train.npz").toarray()
+X_test_dense = sp.load_npz(NPZ_DIR / "X_test.npz").toarray()
 X_train_tensor = torch.FloatTensor(X_train_dense)
-y_train_tensor = torch.LongTensor(np.load('data/y_train.npy'))
+y_train_tensor = torch.LongTensor(np.load(NPY_DIR / "y_train.npy"))
 
-data_test = np.load('data/X_test.npz')
-X_test = torch.FloatTensor(csr_matrix(( data_test['data'], data_test['indices'], data_test['indptr']), shape=data_test['shape']).toarray())
-y_test = torch.LongTensor(np.load('data/y_test.npy'))
+X_test_tensor = torch.FloatTensor(X_test_dense)
+y_test_tensor = torch.LongTensor(np.load(NPY_DIR / "y_test.npy"))
 
-train_dataset = TensorDataset(X_train_tensor, y_train_tensor)
-train_dataloader = DataLoader(train_dataset, batch_size=32, shuffle=True)
+train_dataloader = DataLoader(TensorDataset(X_train_tensor, y_train_tensor), batch_size=32, shuffle=True)
+test_dataloader = DataLoader(TensorDataset(X_test_tensor, y_test_tensor), batch_size=32, shuffle=False)
 
-test_dataset = TensorDataset(X_test, y_test)
-test_dataloader = DataLoader(test_dataset, batch_size=32, shuffle=True)
-
-device = torch.accelerator.current_accelerator().type if torch.accelerator.is_available() else "cpu"
+device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Using {device} device")
 
-model = NeuralNetwork()
+model = NeuralNetwork().to(device)
 loss_fn = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
 

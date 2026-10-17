@@ -2,9 +2,17 @@ import json
 import pickle
 import numpy as np
 import scipy.sparse as sp
+from pathlib import Path
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 import os
+
+ROOT_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = ROOT_DIR / "data"
+NPZ_DIR = DATA_DIR / "npz" / "old_npz_data"
+NPY_DIR = DATA_DIR / "npy" / "old_npy_data"
+NPZ_DIR.mkdir(parents=True, exist_ok=True)
+NPY_DIR.mkdir(parents=True, exist_ok=True)
 
 # Tạo folder data/ nếu chưa có
 os.makedirs('data', exist_ok=True)
