@@ -1,5 +1,4 @@
 import streamlit as st
-import time
 
 
 st.title("NPC")
@@ -10,7 +9,6 @@ if "messages" not in st.session_state:
 
 with st.sidebar:
     st.header("Cài đặt")
-    temp = st.slider("Độ sáng tạo (Temperature)", 0.0, 1.0, 0.7)
     if st.button("Xóa lịch sử trò chuyện"):
         st.session_state.messages = []
         st.rerun()
@@ -20,8 +18,19 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
+with st.bottom:
+    col1, col2 = st.columns([4, 1], vertical_alignment="bottom")
+    with col1:
+        user_input = st.chat_input("Aa")
+    with col2:
+        selected_model = st.selectbox(
+            label="",
+            options=[""],
+            label_visibility="collapsed",
+            placeholder="",
+        )
 
-if user_input := st.chat_input("Aa"):
+if user_input:
     with st.chat_message("user"):
         st.markdown(user_input)
    
@@ -33,7 +42,7 @@ if user_input := st.chat_input("Aa"):
             
             # ---> Sau này sẽ gọi model <---
             
-            time.sleep(1)
+            
             ai_response = f"Máy đã nhận được: {user_input}. Đây là phản hồi mẫu."
             st.markdown(ai_response)
     
