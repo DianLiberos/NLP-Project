@@ -24,19 +24,18 @@ MODEL_SAVE_PATH = CURRENT_DIR / "model.pth"
 
 X_train_dense = sp.load_npz(NPZ_DIR / "X_train.npz").toarray()
 X_test_dense = sp.load_npz(NPZ_DIR / "X_test.npz").toarray()
-X_train_tensor = torch.FloatTensor(X_train_dense)
-y_train_tensor = torch.LongTensor(np.load(NPY_DIR / "y_train.npy"))
+X_train_tensor = torch.FloatTensor(X_train_dense).to(device)
+y_train_tensor = torch.LongTensor(np.load(NPY_DIR / "y_train.npy")).to(device)
 
-X_test_tensor = torch.FloatTensor(X_test_dense)
-y_test_tensor = torch.LongTensor(np.load(NPY_DIR / "y_test.npy"))
+X_test_tensor = torch.FloatTensor(X_test_dense).to(device)
+y_test_tensor = torch.LongTensor(np.load(NPY_DIR / "y_test.npy")).to(device)
 
 train_dataloader = DataLoader(TensorDataset(X_train_tensor, y_train_tensor), batch_size=32, shuffle=True)
 test_dataloader = DataLoader(TensorDataset(X_test_tensor, y_test_tensor), batch_size=32, shuffle=False)
 
 
 activation_function = 'SiLU' #change model to train here
-network = NeuralNetwork(activation_function) 
-model = network.to(device)
+model = NeuralNetwork(activation_function).to(device)
 loss_fn = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
 
