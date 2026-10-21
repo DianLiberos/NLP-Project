@@ -33,8 +33,10 @@ def load_vectorizer(path=VEC_PATH, use_cache=True):
         _vectorizer_cache = vectorizer
     return _vectorizer_cache
 
-def LoadModel(path):
-    model =  NeuralNetwork()
+def LoadModel(path, activation_function=None):
+    if activation_function is None:
+        activation_function = "SiLU" if "silu" in str(path).lower() else "ReLU"
+    model = NeuralNetwork(activation_function=activation_function)
     model.load_state_dict(torch.load(path, map_location="cpu", weights_only=True))
     model.eval()
     return model

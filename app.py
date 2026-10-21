@@ -17,12 +17,17 @@ sys.path.append(str(NETWORK_DIR))
 
 from utils import LoadModel, Text_to_vector, Predict, Output_to_text
 
-# Đường dẫn cố định tới model ReLU
-MODEL_PATH = NETWORK_DIR / "models" / "ReLU" / "ReLU.pth"
+# Tự động nạp danh sách model từ network/models (gồm 1 model ReLU và 5 model SiLU)
+MODELS_DIR = NETWORK_DIR / "models"
+AVAILABLE_MODELS = {
+    p.stem: p
+    for p in sorted(MODELS_DIR.glob("*/*.pth"))
+}
 
 @st.cache_resource
-def get_model():
-    return LoadModel(str(MODEL_PATH))
+def get_model(model_name: str):
+    path = AVAILABLE_MODELS[model_name]
+    return LoadModel(str(path))
 
 st.title("NPC")
 
@@ -45,10 +50,9 @@ with st.bottom:
         user_input = st.chat_input("Aa")
     with col2:
         selected_model = st.selectbox(
-            label="",
-            options=[""],
+            label="Chọn model",
+            options=list(AVAILABLE_MODELS.keys()),
             label_visibility="collapsed",
-            placeholder="",
         )
 
 if user_input:
@@ -60,7 +64,7 @@ if user_input:
     # 6. Khu vực AI xử lý và trả về Output
     with st.chat_message("assistant"):
         with st.spinner("..."):
-            model = get_model()
+            model = get_model(selected_model)
             input_vector = Text_to_vector(user_input)
             output = Predict(model, input_vector)
             ai_response = Output_to_text(output)
