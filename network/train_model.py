@@ -12,7 +12,7 @@ from torch.utils.data import TensorDataset, DataLoader, dataloader
 CURRENT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = CURRENT_DIR.parent
 
-device = "cuda" if torch.cuda.is_available() else "cpu"
+device = torch.accelerator.current_accelerator().type if torch.accelerator.is_available() else "cpu"
 print(f"Using {device} device")
 
 sys.path.append(str(CURRENT_DIR))
@@ -24,11 +24,11 @@ MODEL_SAVE_PATH = CURRENT_DIR / "model.pth"
 
 X_train_dense = sp.load_npz(NPZ_DIR / "X_train.npz").toarray()
 X_test_dense = sp.load_npz(NPZ_DIR / "X_test.npz").toarray()
-X_train_tensor = torch.FloatTensor(X_train_dense).to(device)
-y_train_tensor = torch.LongTensor(np.load(NPY_DIR / "y_train.npy")).to(device)
+X_train_tensor = torch.FloatTensor(X_train_dense)
+y_train_tensor = torch.LongTensor(np.load(NPY_DIR / "y_train.npy"))
 
-X_test_tensor = torch.FloatTensor(X_test_dense).to(device)
-y_test_tensor = torch.LongTensor(np.load(NPY_DIR / "y_test.npy")).to(device)
+X_test_tensor = torch.FloatTensor(X_test_dense)
+y_test_tensor = torch.LongTensor(np.load(NPY_DIR / "y_test.npy"))
 
 train_dataloader = DataLoader(TensorDataset(X_train_tensor, y_train_tensor), batch_size=32, shuffle=True)
 test_dataloader = DataLoader(TensorDataset(X_test_tensor, y_test_tensor), batch_size=32, shuffle=False)
