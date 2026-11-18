@@ -1,24 +1,29 @@
-import torchvision.models as models
-from neural_network import NeuralNetwork
-import torch
 import sys
 import pickle
 from pathlib import Path
+import torch
 
 CURRENT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = CURRENT_DIR.parent
-sys.path.append(str(CURRENT_DIR))
+if str(CURRENT_DIR) not in sys.path:
+    sys.path.append(str(CURRENT_DIR))
 
 from neural_network import NeuralNetwork
 
 INTENT_TO_ID = {"GREETING": 0, "TRADE": 1, "INFO": 2, "HOSTILE": 3, "UNKNOWN": 4}
 ID_TO_INTENT = {v: k for k, v in INTENT_TO_ID.items()}
 
-VEC_PATH = ROOT_DIR / "data" / "tfidf_vectorizer.pkl"
+PROCESSED_VEC_PATH = ROOT_DIR / "data" / "processed" / "tfidf_vectorizer.pkl"
+LEGACY_VEC_PATH = ROOT_DIR / "data" / "tfidf_vectorizer.pkl"
+VEC_PATH = PROCESSED_VEC_PATH if PROCESSED_VEC_PATH.exists() else LEGACY_VEC_PATH
+
 _vectorizer_cache = None
 
-def load_vectorizer(path=VEC_PATH, use_cache=True):
+def load_vectorizer(path=None, use_cache=True):
     global _vectorizer_cache
+
+    if path is None:
+        path = PROCESSED_VEC_PATH if PROCESSED_VEC_PATH.exists() else LEGACY_VEC_PATH
 
     if use_cache and _vectorizer_cache is not None:
         return _vectorizer_cache
@@ -61,9 +66,3 @@ def Output_to_text(model_output, is_pytorch_logits=True) -> str:
     else:
         pred_id = int(model_output[0])
     return ID_TO_INTENT.get(pred_id, "UNKNOWN")
-
-# Cach xai
-# model = LoadModel(path) path la dir toi model CURRENT_DIR/models/ReLU or SiLU/example.pth (trong ReLU or SiLU co nhieu model lua mot cai)
-# X = Text_to_vector('text user trong nay') chuyen text user nhap vao thanh vector
-# y = Predict(model, X) bat dau doan 
-# print(Output_to_text(y)) (chuyen output thanh text se la mot trong 5 nhan o day print ra cho de hieu khong nhat thiet phai print)

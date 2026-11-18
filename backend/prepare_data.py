@@ -1,57 +1,55 @@
 import json
 import pickle
+from pathlib import Path
 import numpy as np
 import scipy.sparse as sp
-from pathlib import Path
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.model_selection import train_test_split
-import os
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT_DIR / "data"
-NPZ_DIR = DATA_DIR / "npz" / "old_npz_data"
-NPY_DIR = DATA_DIR / "npy" / "old_npy_data"
-NPZ_DIR.mkdir(parents=True, exist_ok=True)
-NPY_DIR.mkdir(parents=True, exist_ok=True)
+PROCESSED_DIR = DATA_DIR / "processed"
+TRAIN_PATH = DATA_DIR / "train.json"
+TEST_PATH = DATA_DIR / "test.json"
 
-# Tạo folder data/ nếu chưa có
-os.makedirs('data', exist_ok=True)
+PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
 
-# 1. Load Data gốc
-print("Đang đọc dataset gốc...")
-with open('data/train_augmented.json', 'r', encoding='utf-8') as f:
-    data = json.load(f)
+INTENT_TO_ID = {"GREETING": 0, "TRADE": 1, "INFO": 2, "HOSTILE": 3, "UNKNOWN": 4}
 
-texts = [item['text'] for item in data]
-intent_to_id = {"GREETING": 0, "TRADE": 1, "INFO": 2, "HOSTILE": 3, "UNKNOWN": 4}
-y = [intent_to_id[item['intent']] for item in data]
+def main():
+    print("🚀 [Prepare Data] Đang đọc trực tiếp train.json và test.json (Zero-Leakage Pipeline)...")
+    with open(TRAIN_PATH, "r", encoding="utf-8") as f:
+        train_data = json.load(f)
 
-# 2. Chia cố định Train/Test (80/20)
-# X là mảng chứa các câu thoại
-# y là mảng chứa các nhãn tương ứng đã gán
-print("Đang chia tập Train/Test...")
-X_train_text, X_test_text, y_train, y_test = train_test_split(
-    texts, y, test_size=0.2, random_state=42, stratify=y
-)
+    with open(TEST_PATH, "r", encoding="utf-8") as f:
+        test_data = json.load(f)
 
-# 3. Vector hóa bằng TF-IDF
-print("Đang ép kiểu TF-IDF (Sparse Matrix)...")
-vectorizer = TfidfVectorizer(max_features=2000, ngram_range=(1, 2))
-X_train_sparse = vectorizer.fit_transform(X_train_text)
-X_test_sparse = vectorizer.transform(X_test_text)
+    print(f"  ✔ Tập Train: {len(train_data):,} mẫu")
+    print(f"  ✔ Tập Test:  {len(test_data):,} mẫu")
 
-print("Đang xuất file vào folder data/ ...")
+    X_train_texts = [item["text"] for item in train_data]
+    y_train = np.array([INTENT_TO_ID[item["intent"]] for item in train_data])
 
-# Lưu Từ điển Vectorizer (cho backend FastAPI sau này)
-with open('data/tfidf_vectorizer.pkl', 'wb') as f:
-    pickle.dump(vectorizer, f)
+    X_test_texts = [item["text"] for item in test_data]
+    y_test = np.array([INTENT_TO_ID[item["intent"]] for item in test_data])
 
-# Lưu ma trận thưa X (Sparse Matrix) thành định dạng .npz
-sp.save_npz('data/X_train.npz', X_train_sparse)
-sp.save_npz('data/X_test.npz', X_test_sparse)
+    # Vector hóa TF-IDF: Chỉ fit trên Train, transform trên Test
+    print("⚙️ Đang vector hóa TF-IDF (max_features=2000, ngram_range=(1,2), sublinear_tf=True)...")
+    vectorizer = TfidfVectorizer(max_features=2000, ngram_range=(1, 2), sublinear_tf=True)
+    X_train_sparse = vectorizer.fit_transform(X_train_texts)
+    X_test_sparse = vectorizer.transform(X_test_texts)
 
-# Lưu mảng nhãn y thành định dạng .npy
-np.save('data/y_train.npy', np.array(y_train))
-np.save('data/y_test.npy', np.array(y_test))
+    print(f"📦 Đang xuất dữ liệu ra thư mục: {PROCESSED_DIR} ...")
+    with open(PROCESSED_DIR / "tfidf_vectorizer.pkl", "wb") as f:
+        pickle.dump(vectorizer, f)
 
-print("✅ Đã lưu vào folder data")
+    sp.save_npz(PROCESSED_DIR / "X_train.npz", X_train_sparse)
+    sp.save_npz(PROCESSED_DIR / "X_test.npz", X_test_sparse)
+    np.save(PROCESSED_DIR / "y_train.npy", y_train)
+    np.save(PROCESSED_DIR / "y_test.npy", y_test)
+
+    print("✅ Hoàn tất xuất ma trận Sparse và nhãn vào data/processed/:")
+    print(f"   🔹 X_train shape: {X_train_sparse.shape} | y_train: {y_train.shape}")
+    print(f"   🔸 X_test shape:  {X_test_sparse.shape} | y_test:  {y_test.shape}")
+
+if __name__ == "__main__":
+    main()
