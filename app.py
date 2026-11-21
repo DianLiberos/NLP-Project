@@ -228,7 +228,7 @@ with tab_benchmark:
         chart_f1.append(row["macro_f1"])
 
     df_summary = pd.DataFrame(formatted_rows)
-    st.dataframe(df_summary, use_container_width=True, hide_index=True)
+    st.dataframe(df_summary, width="stretch", hide_index=True)
 
     st.markdown("---")
 
@@ -260,7 +260,7 @@ with tab_benchmark:
             index=[f"Thực tế: {name}" for name in INTENT_NAMES],
             columns=[f"Dự đoán: {name}" for name in INTENT_NAMES]
         )
-        st.dataframe(df_cm, use_container_width=True)
+        st.dataframe(df_cm, width="stretch")
 
     st.markdown("---")
 
@@ -280,7 +280,7 @@ with tab_benchmark:
             }
             for idx, err in enumerate(errors)
         ])
-        st.dataframe(df_errors, use_container_width=True, hide_index=True)
+        st.dataframe(df_errors, width="stretch", hide_index=True)
 
 # ==============================================================================
 # SIDEBAR
