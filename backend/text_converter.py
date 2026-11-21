@@ -16,10 +16,19 @@ from network.neural_network import NeuralNetwork
 INTENT_TO_ID = {"GREETING": 0, "TRADE": 1, "INFO": 2, "HOSTILE": 3, "UNKNOWN": 4}
 ID_TO_INTENT = {v: k for k, v in INTENT_TO_ID.items()}
 
-# 3. ĐƯỜNG DẪN TỚI CÁC FILE MODEL
-VEC_PATH = ROOT_DIR / "data" / "tfidf_vectorizer.pkl"
-SVM_PATH = ROOT_DIR / "network" / "svm_model.pkl"
-NN_PATH = ROOT_DIR / "network" / "model.pth"
+# 3. ĐƯỜNG DẪN TỚI CÁC FILE MODEL TRONG DATA/PROCESSED/ VÀ NETWORK/MODELS/
+PROCESSED_DIR = ROOT_DIR / "data" / "processed"
+
+VEC_PATH = PROCESSED_DIR / "tfidf_vectorizer.pkl"
+SVM_PATH = PROCESSED_DIR / "svm_model.pkl"
+NB_PATH = PROCESSED_DIR / "nb_model.pkl"
+LR_PATH = PROCESSED_DIR / "lr_model.pkl"
+
+NN_PATH = ROOT_DIR / "network" / "models" / "ReLU" / "ReLU.pth"
+if not NN_PATH.exists():
+    available_pth = sorted((ROOT_DIR / "network" / "models").glob("*/*.pth"))
+    if available_pth:
+        NN_PATH = available_pth[0]
 
 # 4. CACHE TRÊN RAM ĐỂ TRÁNH LOAD ĐĨA NHIỀU LẦN
 LOADED_MODELS = {}
@@ -27,32 +36,48 @@ LOADED_MODELS = {}
 def init_engines():
     """Nạp toàn bộ model lên RAM một lần duy nhất lúc khởi động app"""
     global LOADED_MODELS
-    if "vectorizer" not in LOADED_MODELS:
-        print("⚡ [Backend] Đang nạp TF-IDF Vectorizer...")
+    if "vectorizer" not in LOADED_MODELS and VEC_PATH.exists():
+        print(f"⚡ [Backend] Đang nạp TF-IDF Vectorizer từ {VEC_PATH.name}...")
         with open(VEC_PATH, "rb") as f:
             LOADED_MODELS["vectorizer"] = pickle.load(f)
 
     if "svm" not in LOADED_MODELS and SVM_PATH.exists():
-        print("⚡ [Backend] Đang nạp Linear SVM Model...")
+        print(f"⚡ [Backend] Đang nạp Linear SVM Model từ {SVM_PATH.name}...")
         with open(SVM_PATH, "rb") as f:
             LOADED_MODELS["svm"] = pickle.load(f)
 
+    if "nb" not in LOADED_MODELS and NB_PATH.exists():
+        print(f"⚡ [Backend] Đang nạp Multinomial Naive Bayes từ {NB_PATH.name}...")
+        with open(NB_PATH, "rb") as f:
+            LOADED_MODELS["nb"] = pickle.load(f)
+
+    if "lr" not in LOADED_MODELS and LR_PATH.exists():
+        print(f"⚡ [Backend] Đang nạp Logistic Regression từ {LR_PATH.name}...")
+        with open(LR_PATH, "rb") as f:
+            LOADED_MODELS["lr"] = pickle.load(f)
+
     if "pytorch_nn" not in LOADED_MODELS and NN_PATH.exists():
-        print("⚡ [Backend] Đang nạp PyTorch Neural Network...")
-        nn_model = NeuralNetwork()
+        print(f"⚡ [Backend] Đang nạp PyTorch Neural Network từ {NN_PATH.name}...")
+        activation_fn = "SiLU" if "silu" in str(NN_PATH).lower() else "ReLU"
+        nn_model = NeuralNetwork(activation_function=activation_fn)
         nn_model.load_state_dict(torch.load(NN_PATH, map_location="cpu", weights_only=True))
         nn_model.eval()
         LOADED_MODELS["pytorch_nn"] = nn_model
 
-# 5. HÀM CHÍNH ĐỂ THẰNG SỐ 3 IMPORT VÀO APP.PY
 def predict_intent(text: str, engine_type: str = "Linear SVM") -> dict:
     """
     Xử lý text, đo thời gian suy luận và trả về intent + latency.
-    engine_type nhận vào: 'Linear SVM' hoặc 'PyTorch Neural Net'
+    engine_type nhận vào:
+      - 'Linear SVM'
+      - 'Multinomial NB'
+      - 'Logistic Regression'
+      - 'PyTorch Neural Net'
     """
-    # Đảm bảo model đã nằm sẵn trên RAM
     init_engines()
     
+    if "vectorizer" not in LOADED_MODELS:
+        raise FileNotFoundError(f"Không tìm thấy file Vectorizer tại {VEC_PATH}")
+
     vec = LOADED_MODELS["vectorizer"]
     
     # BẮT ĐẦU BẤM GIỜ 
@@ -61,16 +86,24 @@ def predict_intent(text: str, engine_type: str = "Linear SVM") -> dict:
     if engine_type == "Linear SVM":
         if "svm" not in LOADED_MODELS:
             raise FileNotFoundError(f"Không tìm thấy model SVM tại {SVM_PATH}")
-        
-        # Linear SVM dùng trực tiếp ma trận thưa (Sparse Matrix) 
         sparse_vec = vec.transform([text])
         pred_id = int(LOADED_MODELS["svm"].predict(sparse_vec)[0])
+
+    elif engine_type == "Multinomial NB":
+        if "nb" not in LOADED_MODELS:
+            raise FileNotFoundError(f"Không tìm thấy model Naive Bayes tại {NB_PATH}")
+        sparse_vec = vec.transform([text])
+        pred_id = int(LOADED_MODELS["nb"].predict(sparse_vec)[0])
+
+    elif engine_type == "Logistic Regression":
+        if "lr" not in LOADED_MODELS:
+            raise FileNotFoundError(f"Không tìm thấy model Logistic Regression tại {LR_PATH}")
+        sparse_vec = vec.transform([text])
+        pred_id = int(LOADED_MODELS["lr"].predict(sparse_vec)[0])
         
     elif engine_type == "PyTorch Neural Net":
         if "pytorch_nn" not in LOADED_MODELS:
             raise FileNotFoundError(f"Không tìm thấy PyTorch weights tại {NN_PATH}")
-        
-        # Mạng nơ-ron phải convert qua Dense Array rồi ép thành PyTorch Tensor
         dense_vec = vec.transform([text]).toarray()
         input_tensor = torch.FloatTensor(dense_vec)
         
@@ -79,7 +112,10 @@ def predict_intent(text: str, engine_type: str = "Linear SVM") -> dict:
             pred_id = int(torch.argmax(logits, dim=1).item())
             
     else:
-        raise ValueError(f"Engine '{engine_type}' không hợp lệ. Chọn 'Linear SVM' hoặc 'PyTorch Neural Net'.")
+        raise ValueError(
+            f"Engine '{engine_type}' không hợp lệ. "
+            "Chọn: 'Linear SVM', 'Multinomial NB', 'Logistic Regression', hoặc 'PyTorch Neural Net'."
+        )
 
     # DỪNG BẤM GIỜ
     end_time = time.perf_counter()
@@ -99,26 +135,29 @@ if __name__ == "__main__":
     test_query = "ong chu co ban kiem go khong?"
     N_RUNS = 1000
 
+    engines = ["Linear SVM", "Multinomial NB", "Logistic Regression", "PyTorch Neural Net"]
+
     # 1. Warm-up
-    for _ in range(20):
-        predict_intent(test_query, engine_type="Linear SVM")
-        predict_intent(test_query, engine_type="PyTorch Neural Net")
+    print(f"\n🔍 Query thử nghiệm: \"{test_query}\"")
+    print("⏳ Đang warm-up và đo tốc độ suy luận...")
+    for eng in engines:
+        for _ in range(20):
+            predict_intent(test_query, engine_type=eng)
 
-    # 2. Đo Linear SVM
-    start_svm = time.perf_counter()
-    for _ in range(N_RUNS):
-        predict_intent(test_query, engine_type="Linear SVM")
-    total_svm_ms = (time.perf_counter() - start_svm) * 1000
-    avg_svm = total_svm_ms / N_RUNS
+    # 2. Đo tốc độ từng Engine
+    benchmarks = {}
+    sample_outputs = {}
+    for eng in engines:
+        start = time.perf_counter()
+        for _ in range(N_RUNS):
+            res = predict_intent(test_query, engine_type=eng)
+        elapsed_ms = (time.perf_counter() - start) * 1000
+        benchmarks[eng] = elapsed_ms / N_RUNS
+        sample_outputs[eng] = res["intent"]
 
-    # 3. Đo PyTorch Neural Net
-    start_nn = time.perf_counter()
-    for _ in range(N_RUNS):
-        predict_intent(test_query, engine_type="PyTorch Neural Net")
-    total_nn_ms = (time.perf_counter() - start_nn) * 1000
-    avg_nn = total_nn_ms / N_RUNS
-
-    print("\n")
-    print("KẾT QUẢ TỐC ĐỘ: ")
-    print(f"🔹 Linear SVM:         {avg_svm:.4f} ms / query")
-    print(f"🔸 PyTorch Neural Net: {avg_nn:.4f} ms / query")
+    print("\n" + "=" * 65)
+    print(f"{'Engine':<25} | {'Dự đoán Intent':<15} | {'Tốc độ (ms/query)':<18}")
+    print("-" * 65)
+    for eng in engines:
+        print(f"{eng:<25} | {sample_outputs[eng]:<15} | {benchmarks[eng]:<18.4f}")
+    print("=" * 65 + "\n")
