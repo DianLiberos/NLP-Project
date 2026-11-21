@@ -1,5 +1,5 @@
 # The Purpose of the Model
-Imagine that each time player interacts with an NPC, a dialouge box appears, allowing the players to enter anything they want.
+Imagine that each time player interacts with an NPC, a dialogue box appears, allowing the players to enter anything they want.
 
 In that case, we need a model that can take those inputs, predict the players's intention, and trigger appropriate in-game feature.
 
